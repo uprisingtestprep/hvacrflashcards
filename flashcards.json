@@ -1,0 +1,3502 @@
+[
+ {
+  "chapter": 1,
+  "front": "What does the live-dead-live check prove?",
+  "back": "Test the meter on a known live source, test the equipment you think is dead, then test the known source again. It proves the meter worked before and after, so a zero reading really means no power.",
+  "domain": "safety",
+  "id": 1
+ },
+ {
+  "chapter": 1,
+  "front": "What are the steps of lockout/tagout in order?",
+  "back": "Notify people, shut down normally, open the disconnect, apply your own lock and tag, release stored energy, then verify with a meter. Only then may you touch conductors.",
+  "domain": "safety",
+  "id": 2
+ },
+ {
+  "chapter": 1,
+  "front": "About how much body current through the chest can stop the heart?",
+  "back": "Roughly 100 milliamps, or 0.1 ampere, can cause the heart to quiver and stop pumping. That is far less current than a small light bulb draws.",
+  "domain": "safety",
+  "id": 3
+ },
+ {
+  "chapter": 1,
+  "front": "How much current flows through 1,000 ohms of wet skin at 120 volts?",
+  "back": "By Ohm's law, 120 volts divided by 1,000 ohms is 0.12 ampere, or 120 milliamps. That is enough to kill, which is why dry hands and boots matter.",
+  "domain": "safety",
+  "id": 4
+ },
+ {
+  "chapter": 1,
+  "front": "What oxygen level is considered oxygen-deficient?",
+  "back": "Air with less than 19.5 percent oxygen is oxygen-deficient. Normal air has about 21 percent. A large refrigerant leak in a closed room can push oxygen below this level.",
+  "domain": "safety",
+  "id": 5
+ },
+ {
+  "chapter": 1,
+  "front": "Why is refrigerant vapor dangerous in a small closed room?",
+  "back": "Vapor is heavier than air, so it settles low and displaces oxygen. Most refrigerants are not poisonous at normal levels, but people can suffocate without any warning smell.",
+  "domain": "safety",
+  "id": 6
+ },
+ {
+  "chapter": 1,
+  "front": "Why flow nitrogen through copper tubing while brazing?",
+  "back": "Nitrogen is inert, so it pushes out air and stops black copper oxide from forming inside the tube. Oxide flakes would later plug filters, metering devices and oil passages.",
+  "domain": "safety",
+  "id": 7
+ },
+ {
+  "chapter": 1,
+  "front": "Which gases must never be used to pressurize a refrigeration system?",
+  "back": "Never use oxygen or compressed shop air. Oxygen reacts violently with oil, and air adds moisture and can create explosive conditions with compressed oil. Use dry nitrogen through a regulator.",
+  "domain": "safety",
+  "id": 8
+ },
+ {
+  "chapter": 1,
+  "front": "What is the maximum fill for a refrigerant recovery cylinder?",
+  "back": "Never fill a cylinder beyond 80 percent of its capacity. The vapor space gives room for liquid to expand as it warms, so the cylinder cannot burst from heat.",
+  "domain": "safety",
+  "id": 9
+ },
+ {
+  "chapter": 1,
+  "front": "Can a disposable refrigerant cylinder be refilled or used for recovery?",
+  "back": "No. A disposable cylinder is one-time use and must never be refilled or used for recovery. Use a DOT-approved refillable or recovery cylinder that is within its test date.",
+  "domain": "safety",
+  "id": 10
+ },
+ {
+  "chapter": 1,
+  "front": "What is the 4-to-1 ladder rule?",
+  "back": "Place the base 1 foot out from the wall for every 4 feet of height to the support point. A ladder reaching 16 feet should have its base 4 feet from the wall.",
+  "domain": "safety",
+  "id": 11
+ },
+ {
+  "chapter": 1,
+  "front": "How high above the roof edge should a ladder extend?",
+  "back": "At least 3 feet above the roof edge, so you have something to hold while stepping on and off. Keep three points of contact while climbing.",
+  "domain": "safety",
+  "id": 12
+ },
+ {
+  "chapter": 1,
+  "front": "What is the maximum acetylene pressure at the regulator?",
+  "back": "Do not use acetylene above 15 psi at the regulator. Above that pressure the gas can decompose and explode. Open the cylinder valve only about one and a half turns.",
+  "domain": "safety",
+  "id": 13
+ },
+ {
+  "chapter": 1,
+  "front": "What does a micron gauge measure and what target is typical?",
+  "back": "It measures the deep vacuum of absolute pressure in microns. Atmospheric pressure is about 760,000 microns, and a proper evacuation typically reaches 500 microns or less.",
+  "domain": "safety",
+  "id": 14
+ },
+ {
+  "chapter": 1,
+  "front": "What are the four types of EPA Section 608 certification?",
+  "back": "Core, Type I (small appliances), Type II (high-pressure systems) and Type III (low-pressure systems). Passing all four sections earns Universal certification.",
+  "domain": "safety",
+  "id": 15
+ },
+ {
+  "chapter": 1,
+  "front": "Why check a capacitor against its tolerance instead of just its label?",
+  "back": "Capacitors drift and fail. A 35 microfarad part with a 6 percent tolerance must read 32.9 to 37.1. A reading outside that range means the part is weak and should be replaced.",
+  "domain": "safety",
+  "id": 16
+ },
+ {
+  "chapter": 2,
+  "front": "What is the difference between heat and temperature?",
+  "back": "Heat is energy, counted in BTU. Temperature shows how intense the heat is, read in degrees. A pool and a bucket at 80 degrees hold very different amounts of heat.",
+  "domain": "fundamentals",
+  "id": 17
+ },
+ {
+  "chapter": 2,
+  "front": "What is one BTU?",
+  "back": "One BTU is the heat needed to raise one pound of water by one degree Fahrenheit. A pint of water weighs about one pound.",
+  "domain": "fundamentals",
+  "id": 18
+ },
+ {
+  "chapter": 2,
+  "front": "How many BTU/hr is one ton of cooling?",
+  "back": "One ton equals 12,000 BTU/hr. It comes from melting a ton of ice in 24 hours: 2,000 lb times 144 BTU/lb is 288,000 BTU, divided by 24 hours.",
+  "domain": "fundamentals",
+  "id": 19
+ },
+ {
+  "chapter": 2,
+  "front": "How do you convert Fahrenheit to Celsius?",
+  "back": "Subtract 32, then multiply by 5/9. For example, 72 degrees F minus 32 is 40, and 40 times 5/9 is 22.2 degrees C.",
+  "domain": "fundamentals",
+  "id": 20
+ },
+ {
+  "chapter": 2,
+  "front": "What are the Rankine and Kelvin scales?",
+  "back": "They are absolute scales that start at absolute zero. Rankine equals Fahrenheit plus about 460, and Kelvin equals Celsius plus 273.15. Gas law calculations need them.",
+  "domain": "fundamentals",
+  "id": 21
+ },
+ {
+  "chapter": 2,
+  "front": "What is sensible heat and what is its formula?",
+  "back": "Sensible heat changes temperature. Use Q = m x c x delta T, with mass in pounds, specific heat c (1.0 for water, about 0.24 for air) and temperature change in degrees F.",
+  "domain": "fundamentals",
+  "id": 22
+ },
+ {
+  "chapter": 2,
+  "front": "What is latent heat of fusion for water?",
+  "back": "It is 144 BTU per pound, the heat needed to melt ice at 32 degrees F into water at 32 degrees F. The temperature does not change during melting.",
+  "domain": "fundamentals",
+  "id": 23
+ },
+ {
+  "chapter": 2,
+  "front": "What is latent heat of vaporization for water at 212 degrees F?",
+  "back": "About 970 BTU per pound. Boiling one pound takes about as much heat as warming it by 970 degrees, which shows why a change of state moves so much heat.",
+  "domain": "fundamentals",
+  "id": 24
+ },
+ {
+  "chapter": 2,
+  "front": "What is the sensible heat formula for air?",
+  "back": "Q = 1.08 x CFM x delta T, in BTU/hr. The 1.08 equals 0.075 lb per cubic foot times 0.24 specific heat times 60 minutes. It assumes standard air density.",
+  "domain": "fundamentals",
+  "id": 25
+ },
+ {
+  "chapter": 2,
+  "front": "What is the heat formula for water in BTU/hr?",
+  "back": "Q = 500 x GPM x delta T. The 500 comes from 8.33 lb per gallon times 60 minutes times a specific heat of 1.0. A 30 GPM flow warming 10 degrees carries 150,000 BTU/hr.",
+  "domain": "fundamentals",
+  "id": 26
+ },
+ {
+  "chapter": 2,
+  "front": "Name the three ways heat moves.",
+  "back": "Conduction is heat through solids that touch, convection is heat carried by a moving fluid, and radiation is heat travelling as infrared waves with no material between. Most heat exchangers use all three.",
+  "domain": "fundamentals",
+  "id": 27
+ },
+ {
+  "chapter": 2,
+  "front": "How do you convert gauge pressure to absolute pressure?",
+  "back": "Add atmospheric pressure: psia = psig + 14.7 at sea level. A reading of 118 psig is 132.7 psia. Gas laws use absolute pressure.",
+  "domain": "fundamentals",
+  "id": 28
+ },
+ {
+  "chapter": 2,
+  "front": "What is a perfect vacuum in inches of mercury and psia?",
+  "back": "A perfect vacuum is 29.92 inches of mercury of vacuum, and 0 psia. One inch of mercury equals about 0.491 psi, or 25,400 microns.",
+  "domain": "fundamentals",
+  "id": 29
+ },
+ {
+  "chapter": 2,
+  "front": "Why does water boil at a lower temperature at high altitude?",
+  "back": "Atmospheric pressure is lower, about 12.2 psi at 5,000 feet, so water reaches its saturation temperature sooner, at roughly 203 degrees F instead of 212.",
+  "domain": "fundamentals",
+  "id": 30
+ },
+ {
+  "chapter": 2,
+  "front": "What does Dalton's law say, and why does it matter in refrigeration?",
+  "back": "Total pressure in a gas mixture equals the sum of each gas's partial pressure. Air in a system adds its own pressure, so head pressure runs higher than the refrigerant alone would produce.",
+  "domain": "fundamentals",
+  "id": 31
+ },
+ {
+  "chapter": 2,
+  "front": "What is the sensible heat ratio?",
+  "back": "It is sensible heat divided by total heat. A coil removing 21,000 BTU/hr sensible and 9,000 BTU/hr latent has an SHR of 21,000 divided by 30,000, or 0.70.",
+  "domain": "fundamentals",
+  "id": 32
+ },
+ {
+  "chapter": 3,
+  "front": "Name the four major components of the basic refrigeration cycle.",
+  "back": "The evaporator, compressor, condenser and metering device, joined in a sealed loop by tubing. The compressor and metering device separate the high-pressure side from the low-pressure side.",
+  "domain": "fundamentals",
+  "id": 33
+ },
+ {
+  "chapter": 3,
+  "front": "What does the evaporator do?",
+  "back": "It is the cold coil where liquid refrigerant boils and absorbs heat from the air or product. The refrigerant stays at its saturation temperature while it boils.",
+  "domain": "fundamentals",
+  "id": 34
+ },
+ {
+  "chapter": 3,
+  "front": "What does the compressor do?",
+  "back": "It pumps refrigerant vapor around the loop and raises its pressure and temperature. It draws low-pressure vapor from the evaporator and discharges hot, high-pressure vapor to the condenser.",
+  "domain": "fundamentals",
+  "id": 35
+ },
+ {
+  "chapter": 3,
+  "front": "What does the condenser do?",
+  "back": "It is the hot coil where refrigerant vapor releases heat to the air or water and condenses to liquid. It rejects the evaporator heat plus the compressor work.",
+  "domain": "fundamentals",
+  "id": 36
+ },
+ {
+  "chapter": 3,
+  "front": "What does a metering device do?",
+  "back": "It controls liquid flow into the evaporator and drops the pressure from the high side to the low side. Types include orifices, capillary tubes, TXVs and electronic expansion valves.",
+  "domain": "fundamentals",
+  "id": 37
+ },
+ {
+  "chapter": 3,
+  "front": "Define superheat and give its formula.",
+  "back": "Superheat is how many degrees a vapor is above its saturation temperature. Superheat equals suction line temperature minus saturation temperature at suction pressure.",
+  "domain": "fundamentals",
+  "id": 38
+ },
+ {
+  "chapter": 3,
+  "front": "Define subcooling and give its formula.",
+  "back": "Subcooling is how many degrees a liquid is below its saturation temperature. Subcooling equals saturation temperature at liquid pressure minus liquid line temperature.",
+  "domain": "fundamentals",
+  "id": 39
+ },
+ {
+  "chapter": 3,
+  "front": "Why is some superheat required at the compressor?",
+  "back": "Compressors are built to pump vapor. Liquid does not compress, so liquid entering the compressor can wash out oil and damage valves. Superheat gives a safety margin.",
+  "domain": "fundamentals",
+  "id": 40
+ },
+ {
+  "chapter": 3,
+  "front": "How does a TXV hold superheat steady?",
+  "back": "A sensing bulb on the suction line at the coil outlet changes the pressure on the valve diaphragm. A warmer line opens the valve for more flow, and a cooler line closes it.",
+  "domain": "fundamentals",
+  "id": 41
+ },
+ {
+  "chapter": 3,
+  "front": "Which readings do you check for charge on a TXV system?",
+  "back": "Check subcooling, because the TXV already holds superheat steady. On a fixed orifice or capillary tube system, check superheat.",
+  "domain": "fundamentals",
+  "id": 42
+ },
+ {
+  "chapter": 3,
+  "front": "Why must a three-phase scroll compressor have the correct phase order?",
+  "back": "A scroll pumps in one direction only. With wrong phase order it runs backward, makes noise and pumps little, with suction and discharge pressures nearly equal. Swapping two leads fixes it.",
+  "domain": "fundamentals",
+  "id": 43
+ },
+ {
+  "chapter": 3,
+  "front": "How is condenser heat related to evaporator heat?",
+  "back": "Condenser heat equals evaporator heat plus compressor work. A 3,000-watt compressor adds about 10,236 BTU/hr, since one kilowatt equals 3,412 BTU/hr.",
+  "domain": "fundamentals",
+  "id": 44
+ },
+ {
+  "chapter": 3,
+  "front": "How is EER calculated?",
+  "back": "EER equals cooling output in BTU/hr divided by electrical input in watts. A system giving 36,000 BTU/hr on 3,000 watts has an EER of 12.",
+  "domain": "fundamentals",
+  "id": 45
+ },
+ {
+  "chapter": 3,
+  "front": "How is COP related to EER?",
+  "back": "COP equals EER divided by 3.412. An EER of 12 is a COP of about 3.5, meaning the system moves 3.5 units of heat per unit of electrical energy.",
+  "domain": "fundamentals",
+  "id": 46
+ },
+ {
+  "chapter": 3,
+  "front": "What does a reversing valve do in a heat pump?",
+  "back": "It is a four-way valve that redirects compressor discharge to the other coil, so the indoor and outdoor coils swap roles between condenser and evaporator.",
+  "domain": "fundamentals",
+  "id": 47
+ },
+ {
+  "chapter": 3,
+  "front": "Why does a heat pump need a defrost cycle?",
+  "back": "In heating mode the outdoor coil runs colder than the air, so moisture freezes on it. Frost blocks airflow and starves the evaporator, so the system briefly reverses to melt it.",
+  "domain": "fundamentals",
+  "id": 48
+ },
+ {
+  "chapter": 4,
+  "front": "What is the difference between a CFC, an HCFC and an HFC?",
+  "back": "A CFC has chlorine and fluorine and no hydrogen. An HCFC has hydrogen as well as chlorine and fluorine. An HFC has hydrogen and fluorine and no chlorine, so its ozone depletion potential is zero.",
+  "domain": "refrigerants",
+  "id": 49
+ },
+ {
+  "chapter": 4,
+  "front": "What is an HFO refrigerant?",
+  "back": "A hydrofluoroolefin has a carbon double bond that makes it break down in the air within days. It has zero ozone depletion and very low GWP. R-1234yf is an example.",
+  "domain": "refrigerants",
+  "id": 50
+ },
+ {
+  "chapter": 4,
+  "front": "How does the rule of 90 work?",
+  "back": "Add 90 to the R-number to get three digits: carbon, hydrogen and fluorine atoms. Chlorine fills the remaining positions. R-22 plus 90 is 112, so CHClF2.",
+  "domain": "refrigerants",
+  "id": 51
+ },
+ {
+  "chapter": 4,
+  "front": "What do the R-400, R-500 and R-700 series numbers mean?",
+  "back": "R-400 numbers are zeotropic blends, R-500 numbers are azeotropic blends, and R-700 numbers are inorganic compounds, where the last digits are the molecular weight, such as R-717 for ammonia.",
+  "domain": "refrigerants",
+  "id": 52
+ },
+ {
+  "chapter": 4,
+  "front": "What does the safety class A2L mean?",
+  "back": "Lower toxicity and lower flammability, with a burning velocity below 10 centimeters per second. R-32, R-454B and R-1234yf are A2L. They need ignition-source control and A2L-rated tools.",
+  "domain": "refrigerants",
+  "id": 53
+ },
+ {
+  "chapter": 4,
+  "front": "What does safety class A3 mean?",
+  "back": "Lower toxicity but highly flammable. Propane (R-290) and isobutane (R-600a) are A3 refrigerants, used in small charges in appliances.",
+  "domain": "refrigerants",
+  "id": 54
+ },
+ {
+  "chapter": 4,
+  "front": "What are ODP and GWP?",
+  "back": "Ozone depletion potential compares ozone damage with R-11, set at 1. Global warming potential compares the heat trapped over 100 years with carbon dioxide, set at 1.",
+  "domain": "refrigerants",
+  "id": 55
+ },
+ {
+  "chapter": 4,
+  "front": "When did R-22 production for new equipment end?",
+  "back": "On January 1, 2020, in the United States. Reclaimed and recycled R-22 can still be used to service existing equipment.",
+  "domain": "refrigerants",
+  "id": 56
+ },
+ {
+  "chapter": 4,
+  "front": "What is the Montreal Protocol?",
+  "back": "A 1987 international treaty that phased out ozone-depleting substances such as CFCs and HCFCs. The United States enforces it through the Clean Air Act.",
+  "domain": "refrigerants",
+  "id": 57
+ },
+ {
+  "chapter": 4,
+  "front": "What does the AIM Act do?",
+  "back": "The 2020 American Innovation and Manufacturing Act directs the EPA to phase down HFC production and consumption, about 85 percent by 2036, and to limit GWP in new equipment.",
+  "domain": "refrigerants",
+  "id": 58
+ },
+ {
+  "chapter": 4,
+  "front": "What is temperature glide?",
+  "back": "The temperature change of a zeotropic blend as it boils or condenses at constant pressure, because its components boil at different temperatures. R-407C has a noticeable glide.",
+  "domain": "refrigerants",
+  "id": 59
+ },
+ {
+  "chapter": 4,
+  "front": "Which chart column do you use for superheat and subcooling on a blend with glide?",
+  "back": "Use the dew point (vapor) column for superheat and the bubble point (liquid) column for subcooling.",
+  "domain": "refrigerants",
+  "id": 60
+ },
+ {
+  "chapter": 4,
+  "front": "Why charge a zeotropic blend as a liquid?",
+  "back": "Vapor leaving the cylinder is richer in the lighter component, which changes the composition left behind. Liquid withdrawal keeps the proportions right, and the liquid is metered so it flashes before the compressor.",
+  "domain": "refrigerants",
+  "id": 61
+ },
+ {
+  "chapter": 4,
+  "front": "Which oil is used with HFC refrigerants and what is its weakness?",
+  "back": "Polyolester (POE) oil is used with HFCs such as R-410A and R-134a. It absorbs moisture from air very quickly, so containers must be capped and systems opened for as short a time as possible.",
+  "domain": "refrigerants",
+  "id": 62
+ },
+ {
+  "chapter": 4,
+  "front": "Roughly what pressure does R-410A reach at 100 degrees F compared with R-22?",
+  "back": "R-410A reaches about 317 psig and R-22 about 196 psig at 100 degrees F. R-410A runs roughly 60 percent higher, so its equipment and hoses are rated for higher pressure.",
+  "domain": "refrigerants",
+  "id": 63
+ },
+ {
+  "chapter": 4,
+  "front": "How can a PT chart reveal air in a recovery cylinder?",
+  "back": "A cylinder of pure refrigerant at steady temperature should read the chart pressure. A reading well above it, such as 95 psig for R-134a at 70 degrees (chart 71), suggests air or another gas.",
+  "domain": "refrigerants",
+  "id": 64
+ },
+ {
+  "chapter": 5,
+  "front": "What does the A2L safety class mean?",
+  "back": "A2L means lower toxicity and lower flammability, with a burning velocity of 10 centimeters per second or less. These fluids burn only under stricter conditions than class 2 or class 3 fluids.",
+  "domain": "refrigerants",
+  "id": 65
+ },
+ {
+  "chapter": 5,
+  "front": "What does the letter A and the number in a safety class like A1 tell you?",
+  "back": "The letter A means lower toxicity and B means higher toxicity. The number gives flammability: 1 means no flame propagation, 2 and 2L mean lower flammability, and 3 means highly flammable.",
+  "domain": "refrigerants",
+  "id": 66
+ },
+ {
+  "chapter": 5,
+  "front": "Name two A2L refrigerants that replace R-410A in new residential equipment.",
+  "back": "R-32 and R-454B are the two most common choices. Both have a much lower GWP than R-410A and both are classed A2L.",
+  "domain": "refrigerants",
+  "id": 67
+ },
+ {
+  "chapter": 5,
+  "front": "What is GWP?",
+  "back": "Global warming potential compares how much heat a gas traps with the heat trapped by the same weight of carbon dioxide, usually over 100 years. Carbon dioxide has a GWP of 1.",
+  "domain": "refrigerants",
+  "id": 68
+ },
+ {
+  "chapter": 5,
+  "front": "Roughly what are the GWP values of R-410A, R-32 and R-454B?",
+  "back": "On the AR4 scale, R-410A is about 2,088, R-32 is about 675, and R-454B is about 466. Rules cite specific values, so check the current EPA rule.",
+  "domain": "refrigerants",
+  "id": 69
+ },
+ {
+  "chapter": 5,
+  "front": "What is the lower flammability limit, or LFL?",
+  "back": "It is the lowest concentration of gas in air at which a flame can propagate. Below that concentration the mixture is too lean to burn.",
+  "domain": "refrigerants",
+  "id": 70
+ },
+ {
+  "chapter": 5,
+  "front": "About what is the LFL of R-32?",
+  "back": "About 0.307 kilograms of R-32 per cubic meter of air, which is roughly 14 percent by volume. A room must hold that much gas before the mixture can burn.",
+  "domain": "refrigerants",
+  "id": 71
+ },
+ {
+  "chapter": 5,
+  "front": "How do you check whether a room can hold a refrigerant charge?",
+  "back": "Convert cubic feet to cubic meters by multiplying by 0.0283 and pounds to kilograms by multiplying by 0.4536. Divide the charge mass by the room volume and compare it with the LFL.",
+  "domain": "refrigerants",
+  "id": 72
+ },
+ {
+  "chapter": 5,
+  "front": "A 4 lb charge of R-32 leaks into a 27.2 cubic meter room. What fraction of the LFL results?",
+  "back": "4 lb is 1.81 kg, and 1.81 divided by 27.2 gives 0.0667 kg per cubic meter. Dividing by 0.307 gives about 22 percent of the LFL.",
+  "domain": "refrigerants",
+  "id": 73
+ },
+ {
+  "chapter": 5,
+  "front": "Why do A2L leaks collect near the floor?",
+  "back": "R-32 vapor weighs about 1.8 times as much as air, and R-454B is more than twice as heavy. The gas sinks and pools low, so local concentration can exceed the room average.",
+  "domain": "refrigerants",
+  "id": 74
+ },
+ {
+  "chapter": 5,
+  "front": "Why are A2L fluids harder to ignite than propane?",
+  "back": "They need a much larger spark. The minimum ignition energy of R-32 is in the tens of millijoules, while propane ignites with about a quarter of a millijoule.",
+  "domain": "refrigerants",
+  "id": 75
+ },
+ {
+  "chapter": 5,
+  "front": "What is the purpose of the refrigerant detection sensor in an A2L air handler?",
+  "back": "It watches for a leak and, when it senses one, starts the blower to mix and dilute the gas. It must never be bypassed, moved or removed.",
+  "domain": "refrigerants",
+  "id": 76
+ },
+ {
+  "chapter": 5,
+  "front": "Can you braze on an A2L system that still holds refrigerant?",
+  "back": "No. Recover the refrigerant, purge the lines with nitrogen, and clear the area of leaked gas first. Flammable gas and a torch flame is the combination the standards guard against.",
+  "domain": "refrigerants",
+  "id": 77
+ },
+ {
+  "chapter": 5,
+  "front": "Which tools must be rated for A2L refrigerants?",
+  "back": "Recovery machines, leak detectors, vacuum pumps, hoses and gauges should be rated or approved for A2L use. Ordinary tools may spark or be unable to read the fluid.",
+  "domain": "refrigerants",
+  "id": 78
+ },
+ {
+  "chapter": 5,
+  "front": "What technology transitions rule applies to new residential air conditioners from January 2025?",
+  "back": "The AIM Act rule sets a GWP limit of 700 for new residential and light commercial air conditioning and heat pumps made on or after January 1, 2025. Check the current EPA rule for installation dates.",
+  "domain": "refrigerants",
+  "id": 79
+ },
+ {
+  "chapter": 5,
+  "front": "Can you top off an A2L system with a different refrigerant?",
+  "back": "No. Equipment is designed around one refrigerant's pressures, oil and safety properties, and mixing fluids is both a violation of good practice and a risk to the system.",
+  "domain": "refrigerants",
+  "id": 80
+ },
+ {
+  "chapter": 6,
+  "front": "Which law gives the EPA authority over refrigerant handling in stationary equipment?",
+  "back": "Section 608 of the Clean Air Act. The rules are in Title 40 of the Code of Federal Regulations, Part 82.",
+  "domain": "regulations",
+  "id": 81
+ },
+ {
+  "chapter": 6,
+  "front": "What treaty is behind the phaseout of ozone-depleting refrigerants?",
+  "back": "The Montreal Protocol, signed in 1987. The Clean Air Act of 1990 let the EPA write rules to carry it out in the United States.",
+  "domain": "regulations",
+  "id": 82
+ },
+ {
+  "chapter": 6,
+  "front": "What does Type I certification cover?",
+  "back": "Small appliances, which are factory-sealed products holding 5 pounds of refrigerant or less. Examples are household refrigerators, window air conditioners and vending machines.",
+  "domain": "regulations",
+  "id": 83
+ },
+ {
+  "chapter": 6,
+  "front": "What does Type II certification cover?",
+  "back": "High-pressure and very-high-pressure appliances other than small appliances and motor vehicle air conditioning. Residential split systems and commercial refrigeration are typical examples.",
+  "domain": "regulations",
+  "id": 84
+ },
+ {
+  "chapter": 6,
+  "front": "What does Type III certification cover?",
+  "back": "Low-pressure appliances, such as centrifugal chillers using R-123. Their evaporators run below atmospheric pressure.",
+  "domain": "regulations",
+  "id": 85
+ },
+ {
+  "chapter": 6,
+  "front": "What is Universal certification?",
+  "back": "It means the technician has passed all three types: Type I, Type II and Type III, plus the Core section.",
+  "domain": "regulations",
+  "id": 86
+ },
+ {
+  "chapter": 6,
+  "front": "How many questions are in each exam section, and what is the passing score?",
+  "back": "Each section has 25 multiple-choice questions, and 18 correct answers, which is 72 percent, are needed to pass. A passed section stays passed.",
+  "domain": "regulations",
+  "id": 87
+ },
+ {
+  "chapter": 6,
+  "front": "Does Section 608 certification expire?",
+  "back": "No. It is valid for life, though employers and states may add their own training or licensing requirements.",
+  "domain": "regulations",
+  "id": 88
+ },
+ {
+  "chapter": 6,
+  "front": "Is it ever acceptable to release refrigerant during service?",
+  "back": "Only a minimal release while making a good faith attempt to capture refrigerant is allowed, such as the tiny amount left in a hose. Deliberate venting is illegal.",
+  "domain": "regulations",
+  "id": 89
+ },
+ {
+  "chapter": 6,
+  "front": "Define recover, recycle and reclaim.",
+  "back": "Recover means remove refrigerant to a container. Recycle means clean it for reuse by the same owner. Reclaim means process it to AHRI 700 purity at a certified reclaimer.",
+  "domain": "regulations",
+  "id": 90
+ },
+ {
+  "chapter": 6,
+  "front": "When must recovered refrigerant be reclaimed before reuse?",
+  "back": "When it will go to a different owner. Refrigerant that is mixed with another fluid must be reclaimed or destroyed and cannot be recycled by ordinary means.",
+  "domain": "regulations",
+  "id": 91
+ },
+ {
+  "chapter": 6,
+  "front": "What boiling point defines a low-pressure refrigerant?",
+  "back": "A normal boiling point above 10 degrees C (50 degrees F), such as R-123 at about 28 degrees C. These systems run below atmospheric pressure on the low side.",
+  "domain": "regulations",
+  "id": 92
+ },
+ {
+  "chapter": 6,
+  "front": "What boiling point range defines a high-pressure refrigerant?",
+  "back": "Between minus 50 degrees C and 10 degrees C at atmospheric pressure. R-22 and R-134a are standard examples.",
+  "domain": "regulations",
+  "id": 93
+ },
+ {
+  "chapter": 6,
+  "front": "What is the annualized leak rate formula?",
+  "back": "Pounds added divided by full charge, times 365 divided by days since the last addition, times 100. The result is compared with the trigger for that equipment type.",
+  "domain": "regulations",
+  "id": 94
+ },
+ {
+  "chapter": 6,
+  "front": "A 60 lb comfort cooling unit gets 4 lb after 200 days. What is the leak rate?",
+  "back": "4 divided by 60 is 0.0667, and 365 divided by 200 is 1.825, so the rate is about 12.2 percent. That is above the 10 percent comfort cooling trigger.",
+  "domain": "regulations",
+  "id": 95
+ },
+ {
+  "chapter": 6,
+  "front": "What are the safe fill and reuse rules for refrigerant cylinders?",
+  "back": "Never fill a cylinder above 80 percent of its volume as liquid, fill by weight, and never refill a disposable cylinder.",
+  "domain": "regulations",
+  "id": 96
+ },
+ {
+  "chapter": 7,
+  "front": "How is ACR tubing sized?",
+  "back": "By its actual outside diameter, so 3/8 inch ACR tube measures 3/8 inch across the outside. It is cleaned, dehydrated and capped at the factory.",
+  "domain": "piping",
+  "id": 97
+ },
+ {
+  "chapter": 7,
+  "front": "How does Type L plumbing tube differ from ACR tube in sizing?",
+  "back": "Type K, L and M tube uses a nominal size, so a 1/2 inch nominal tube has a 5/8 inch outside diameter. It is also not cleaned for refrigeration use.",
+  "domain": "piping",
+  "id": 98
+ },
+ {
+  "chapter": 7,
+  "front": "What temperature separates brazing from soldering?",
+  "back": "840 degrees F (450 degrees C). Brazing filler melts above it and soldering filler melts below it.",
+  "domain": "piping",
+  "id": 99
+ },
+ {
+  "chapter": 7,
+  "front": "Why is brazing used instead of soldering on refrigerant lines?",
+  "back": "Brazed joints are far stronger and handle refrigerant pressure, vibration and temperature swings, while soft solder is too weak for refrigeration service.",
+  "domain": "piping",
+  "id": 100
+ },
+ {
+  "chapter": 7,
+  "front": "What does a BCuP filler rod braze, and what must it never be used on?",
+  "back": "BCuP rods braze copper to copper without added flux. They must never be used on steel or other ferrous metals, because phosphorus forms a brittle compound with iron.",
+  "domain": "piping",
+  "id": 101
+ },
+ {
+  "chapter": 7,
+  "front": "What filler is used to braze copper to a steel valve?",
+  "back": "A silver-bearing BAg rod such as BAg-5, used with a flux. The flux goes on the outside of the male tube only.",
+  "domain": "piping",
+  "id": 102
+ },
+ {
+  "chapter": 7,
+  "front": "Why must flux be kept off the inside of the tube?",
+  "back": "Flux residue inside a sealed system is a contaminant that can corrode parts and plug small passages such as a metering device screen.",
+  "domain": "piping",
+  "id": 103
+ },
+ {
+  "chapter": 7,
+  "front": "Why do technicians flow nitrogen through a tube while brazing?",
+  "back": "Nitrogen displaces air so that hot copper does not form black copper oxide scale inside the tube. The scale would later flake off and plug the metering device or filter drier.",
+  "domain": "piping",
+  "id": 104
+ },
+ {
+  "chapter": 7,
+  "front": "What nitrogen pressure and flow are typical for a brazing purge?",
+  "back": "About 1 to 3 psig and about 2 to 5 cubic feet per hour, through a regulator, with an open exit so the system never becomes a sealed pressure vessel.",
+  "domain": "piping",
+  "id": 105
+ },
+ {
+  "chapter": 7,
+  "front": "Why must oxygen and compressed air never be used to purge or pressure test?",
+  "back": "Oxygen mixes explosively with oil, and compressed air carries oxygen and moisture. Dry nitrogen is the only safe gas for these jobs.",
+  "domain": "piping",
+  "id": 106
+ },
+ {
+  "chapter": 7,
+  "front": "What clearance between tube and fitting lets capillary action work?",
+  "back": "About 0.001 to 0.005 inch. A tighter or looser fit leaves the filler unable to flow evenly through the joint.",
+  "domain": "piping",
+  "id": 107
+ },
+ {
+  "chapter": 7,
+  "front": "How should a tube be prepared before brazing?",
+  "back": "Cut square with a tubing cutter, ream the burr, clean tube and fitting to bright metal with abrasive cloth, assemble and support the joint, and protect nearby heat-sensitive parts.",
+  "domain": "piping",
+  "id": 108
+ },
+ {
+  "chapter": 7,
+  "front": "What does a good brazed joint look like?",
+  "back": "A smooth, continuous fillet of filler all around the joint, flowed onto both the tube and the fitting. Gaps, pits or a bead on one side signal a bad joint.",
+  "domain": "piping",
+  "id": 109
+ },
+ {
+  "chapter": 7,
+  "front": "What suction line gas speeds help return oil to the compressor?",
+  "back": "As a design guide, at least about 500 feet per minute in horizontal runs and about 1,000 feet per minute in vertical risers.",
+  "domain": "piping",
+  "id": 110
+ },
+ {
+  "chapter": 7,
+  "front": "A 100 foot copper line warms by 100 degrees F. How much does it expand?",
+  "back": "100 feet is 1,200 inches, and 1,200 times 100 times 0.0000094 gives about 1.13 inches. Long runs use offsets or loops to flex.",
+  "domain": "piping",
+  "id": 111
+ },
+ {
+  "chapter": 7,
+  "front": "Why does a nitrogen test pressure fall when the temperature falls?",
+  "back": "Gas pressure follows absolute temperature. For example, 150 psig at 70 degrees F becomes about 145 psig at 55 degrees F in a tight system, so correct for temperature before calling it a leak.",
+  "domain": "piping",
+  "id": 112
+ },
+ {
+  "chapter": 8,
+  "front": "What is a micron in vacuum measurement?",
+  "back": "A micron is one thousandth of a millimeter of mercury. 760,000 microns equal one atmosphere.",
+  "domain": "service_procedures",
+  "id": 113
+ },
+ {
+  "chapter": 8,
+  "front": "What vacuum level is a typical evacuation target?",
+  "back": "500 microns or lower, checked with a micron gauge. Some manufacturers specify 350, so read the installation manual.",
+  "domain": "service_procedures",
+  "id": 114
+ },
+ {
+  "chapter": 8,
+  "front": "Why is a micron gauge needed instead of the manifold compound gauge?",
+  "back": "The compound gauge has no precision near deep vacuum and cannot show whether moisture is gone. A micron gauge reads absolute pressure directly.",
+  "domain": "service_procedures",
+  "id": 115
+ },
+ {
+  "chapter": 8,
+  "front": "Why does a deep vacuum dry a system?",
+  "back": "It lowers pressure so far that liquid water boils into vapor at room temperature, and the pump removes the vapor. Water at 70 degrees F boils at about 18,800 microns.",
+  "domain": "service_procedures",
+  "id": 116
+ },
+ {
+  "chapter": 8,
+  "front": "Why should a cold system be warmed before evacuation?",
+  "back": "Water boils at a much lower pressure when cold, about 6,300 microns at 40 degrees F, and boiling takes heat that can freeze the water. Warmth speeds the drying.",
+  "domain": "service_procedures",
+  "id": 117
+ },
+ {
+  "chapter": 8,
+  "front": "What does a core removal tool do during evacuation?",
+  "back": "It lets you remove Schrader cores while the system stays sealed, so the pump pulls through the full opening. This can shorten evacuation time a great deal.",
+  "domain": "service_procedures",
+  "id": 118
+ },
+ {
+  "chapter": 8,
+  "front": "What hose is best for evacuation?",
+  "back": "A short, vacuum-rated hose of 3/8 or 1/2 inch inside diameter. Standard 1/4 inch charging hoses restrict flow and may leak.",
+  "domain": "service_procedures",
+  "id": 119
+ },
+ {
+  "chapter": 8,
+  "front": "Where should the micron gauge be placed?",
+  "back": "At the opposite end of the system from the pump, on its own port. A gauge at the pump shows the pump's pressure, not the system's.",
+  "domain": "service_procedures",
+  "id": 120
+ },
+ {
+  "chapter": 8,
+  "front": "What does a rising micron reading that levels off mean after the pump is isolated?",
+  "back": "Moisture or oil outgassing from a tight system that is not yet dry. Run the pump longer and retest.",
+  "domain": "service_procedures",
+  "id": 121
+ },
+ {
+  "chapter": 8,
+  "front": "What does a micron reading that keeps climbing mean?",
+  "back": "A leak is letting outside air in. Stop evacuating, find and repair the leak, and start again.",
+  "domain": "service_procedures",
+  "id": 122
+ },
+ {
+  "chapter": 8,
+  "front": "What is a triple evacuation?",
+  "back": "Pull a vacuum, break it with dry nitrogen to about 1 psig, let the nitrogen absorb moisture, release it, and repeat. Pull the final vacuum to 500 microns after the third cycle.",
+  "domain": "service_procedures",
+  "id": 123
+ },
+ {
+  "chapter": 8,
+  "front": "Why must you never use the compressor to pull a vacuum?",
+  "back": "A compressor running with a vacuum on its suction side can arc at the terminals and burn out, because there is too little gas to cool the motor.",
+  "domain": "service_procedures",
+  "id": 124
+ },
+ {
+  "chapter": 8,
+  "front": "How do you charge a split system by weight with a long line set?",
+  "back": "Start with the nameplate charge and add the manual's amount per foot beyond the stated length. For example, 116 ounces plus 25 feet times 0.6 ounce gives 131 ounces.",
+  "domain": "service_procedures",
+  "id": 125
+ },
+ {
+  "chapter": 8,
+  "front": "Why are blends charged as liquid?",
+  "back": "A blend contains fluids that boil at different temperatures, so drawing only vapor changes the composition left in the cylinder. Throttle the liquid so it flashes to vapor before the compressor.",
+  "domain": "service_procedures",
+  "id": 126
+ },
+ {
+  "chapter": 8,
+  "front": "Which charging method suits a fixed orifice, and which suits a TXV?",
+  "back": "Charge a fixed orifice by superheat, using the maker's chart for indoor wet bulb and outdoor dry bulb. Charge a TXV system by subcooling, often a target of 8 to 12 degrees F.",
+  "domain": "service_procedures",
+  "id": 127
+ },
+ {
+  "chapter": 8,
+  "front": "An R-22 system shows 260 psig and a liquid line at 110 degrees F. What is the subcooling?",
+  "back": "R-22 at 260 psig saturates at about 120 degrees F, so subcooling is 120 minus 110, or 10 degrees F.",
+  "domain": "service_procedures",
+  "id": 128
+ },
+ {
+  "chapter": 9,
+  "front": "What does it mean to recover refrigerant?",
+  "back": "To remove refrigerant from a system and store it in an external container without testing or processing it in any way. It is done at the service site.",
+  "domain": "service_procedures",
+  "id": 129
+ },
+ {
+  "chapter": 9,
+  "front": "What does it mean to recycle refrigerant?",
+  "back": "To clean refrigerant for reuse by separating oil and passing it through filter-driers to reduce moisture, acid and particles. Recycled refrigerant may be reused only in equipment owned by the same person.",
+  "domain": "service_procedures",
+  "id": 130
+ },
+ {
+  "chapter": 9,
+  "front": "What does it mean to reclaim refrigerant?",
+  "back": "To reprocess refrigerant until it meets the AHRI 700 purity standard, proven by laboratory analysis. Only a certified reclamation facility can do it, and reclaimed refrigerant can be sold to anyone.",
+  "domain": "service_procedures",
+  "id": 131
+ },
+ {
+  "chapter": 9,
+  "front": "What is the maximum fill for a recovery cylinder?",
+  "back": "Never fill past 80 percent of rated capacity by weight. The remaining 20 percent leaves vapor space for liquid expansion and prevents a hydrostatic burst.",
+  "domain": "service_procedures",
+  "id": 132
+ },
+ {
+  "chapter": 9,
+  "front": "A recovery cylinder is rated for 50 pounds with a 19.0 pound tare. What is the maximum gross weight?",
+  "back": "The net limit is 0.80 x 50 = 40 pounds. Adding the 19.0 pound tare gives a maximum gross weight of 59.0 pounds on the scale.",
+  "domain": "service_procedures",
+  "id": 133
+ },
+ {
+  "chapter": 9,
+  "front": "What color is a standard refillable recovery cylinder?",
+  "back": "It has a gray body with a yellow top. This marks it as a cylinder for used refrigerant, unlike new-refrigerant cylinders, which are colored to match the refrigerant.",
+  "domain": "service_procedures",
+  "id": 134
+ },
+ {
+  "chapter": 9,
+  "front": "Which standard certifies recovery equipment for technicians?",
+  "back": "AHRI 740. The equipment must be tested by an EPA-approved laboratory, and it carries a label listing the refrigerants and evacuation levels it can handle.",
+  "domain": "service_procedures",
+  "id": 135
+ },
+ {
+  "chapter": 9,
+  "front": "What is the difference between self-contained and system-dependent recovery equipment?",
+  "back": "A self-contained machine has its own compressor and works even if the system compressor is dead. A system-dependent device has none and can be used only on appliances with 15 pounds of charge or less.",
+  "domain": "service_procedures",
+  "id": 136
+ },
+ {
+  "chapter": 9,
+  "front": "Why wait several minutes after recovering to 0 psig and recheck the gauge?",
+  "back": "Refrigerant dissolved in the compressor oil keeps boiling out after the pressure drops, so the gauge rises. If it rises, recover again until the pressure stays steady.",
+  "domain": "service_procedures",
+  "id": 137
+ },
+ {
+  "chapter": 9,
+  "front": "What is the required recovery level for a low-pressure appliance?",
+  "back": "25 mm Hg absolute. Since 1 mm Hg equals 1,000 microns, that is 25,000 microns, a rougher vacuum than the 500 microns used for a full evacuation.",
+  "domain": "service_procedures",
+  "id": 138
+ },
+ {
+  "chapter": 9,
+  "front": "How do you recover liquid refrigerant by the push-pull method?",
+  "back": "Connect the system liquid port to the cylinder liquid port, and run the machine from the cylinder vapor port to the system vapor side. The pressure difference pushes liquid into the cylinder.",
+  "domain": "service_procedures",
+  "id": 139
+ },
+ {
+  "chapter": 9,
+  "front": "A 16 pound charge has 13.6 pounds of liquid. Liquid recovers at 3.4 lb/min and vapor at 0.4 lb/min. How long does recovery take?",
+  "back": "Liquid takes 13.6 / 3.4 = 4 minutes. The remaining 2.4 pounds of vapor takes 2.4 / 0.4 = 6 minutes. The total is 10 minutes, not counting rebound checks.",
+  "domain": "service_procedures",
+  "id": 140
+ },
+ {
+  "chapter": 9,
+  "front": "Why must water keep flowing through a low-pressure chiller during recovery?",
+  "back": "Boiling refrigerant chills the shell, and still water in the tubes can freeze and burst them. Keeping the water moving prevents that expensive damage.",
+  "domain": "service_procedures",
+  "id": 141
+ },
+ {
+  "chapter": 9,
+  "front": "Can recovered refrigerant be sold to a new owner after on-site recycling?",
+  "back": "No. Refrigerant that changes ownership must first be reclaimed to AHRI 700 purity by a certified reclaimer. Recycled refrigerant stays with equipment owned by the same person.",
+  "domain": "service_procedures",
+  "id": 142
+ },
+ {
+  "chapter": 9,
+  "front": "What should you do with a cylinder whose pressure is above the chart value for its temperature?",
+  "back": "It likely holds noncondensable gas such as air. Do not add it to a clean cylinder. Send it to a reclaimer.",
+  "domain": "service_procedures",
+  "id": 143
+ },
+ {
+  "chapter": 9,
+  "front": "Why must disposable DOT 39 cylinders never be refilled with recovered refrigerant?",
+  "back": "They are not designed or tested for reuse, so refilling is not allowed and can be unsafe. Use a refillable recovery cylinder that is within its five-year test date.",
+  "domain": "service_procedures",
+  "id": 144
+ },
+ {
+  "chapter": 10,
+  "front": "What are the two main jobs of a compressor?",
+  "back": "It moves refrigerant vapor around the circuit, and it raises the vapor pressure and temperature so heat can be rejected to warmer outdoor air or water.",
+  "domain": "components",
+  "id": 145
+ },
+ {
+  "chapter": 10,
+  "front": "How is compression ratio calculated?",
+  "back": "Divide absolute discharge pressure by absolute suction pressure. Absolute pressure is gauge pressure plus 14.7 psi, so 250 psig and 68 psig gives 264.7 / 82.7 = 3.2.",
+  "domain": "components",
+  "id": 146
+ },
+ {
+  "chapter": 10,
+  "front": "Name the five compression methods used in HVACR compressors.",
+  "back": "Reciprocating, scroll, rotary (rolling piston), screw and centrifugal. Scroll compressors dominate residential air conditioning, and centrifugal units serve large chillers.",
+  "domain": "components",
+  "id": 147
+ },
+ {
+  "chapter": 10,
+  "front": "How does a hermetic compressor differ from a semi-hermetic one?",
+  "back": "A hermetic compressor is sealed in a welded steel shell and cannot be opened. A semi-hermetic one is bolted together with gaskets so valves, pistons and the motor can be serviced.",
+  "domain": "components",
+  "id": 148
+ },
+ {
+  "chapter": 10,
+  "front": "What are the three terminals on a single-phase compressor?",
+  "back": "C (common), S (start) and R (run). The run winding has the lowest resistance, the start winding is higher, and S to R is the highest reading.",
+  "domain": "components",
+  "id": 149
+ },
+ {
+  "chapter": 10,
+  "front": "The C to R reading is 1.6 ohms and C to S is 4.4 ohms. What should S to R read?",
+  "back": "6.0 ohms, because the S to R reading equals the sum of the other two: 1.6 + 4.4. If the sum does not match, the windings or the readings are wrong.",
+  "domain": "components",
+  "id": 150
+ },
+ {
+  "chapter": 10,
+  "front": "What is volumetric efficiency?",
+  "back": "The ratio of actual vapor flow to the theoretical displacement. It falls as the compression ratio rises because of clearance volume, leaking valves and heating of the incoming vapor.",
+  "domain": "components",
+  "id": 151
+ },
+ {
+  "chapter": 10,
+  "front": "What is the theoretical displacement of a two-cylinder compressor with a 2 inch bore, 1.5 inch stroke, 1,750 RPM?",
+  "back": "Bore area is 3.1416 square inches, one cylinder sweeps 4.712 cubic inches, two give 9.425 per revolution, times 1,750 is 16,494 cubic inches per minute, or 9.55 CFM.",
+  "domain": "components",
+  "id": 152
+ },
+ {
+  "chapter": 10,
+  "front": "What happens if a three-phase scroll compressor is wired for backward rotation?",
+  "back": "It runs noisily but does not pump. Suction pressure does not fall, discharge pressure does not rise, and amps are low. Swap any two power leads to fix it.",
+  "domain": "components",
+  "id": 153
+ },
+ {
+  "chapter": 10,
+  "front": "Why should a scroll compressor never be used to pump a system into a deep vacuum?",
+  "back": "With no suction valves it can pull a very deep vacuum on its own suction side, which can arc the terminals and damage the compressor. Use a low-pressure switch to stop it.",
+  "domain": "components",
+  "id": 154
+ },
+ {
+  "chapter": 10,
+  "front": "What do RLA and LRA mean on a compressor nameplate?",
+  "back": "RLA is rated load amps, the current at normal running load. LRA is locked rotor amps, the startup surge, often five to six times RLA.",
+  "domain": "components",
+  "id": 155
+ },
+ {
+  "chapter": 10,
+  "front": "A compressor has RLA 15.2 amps and reads 16.0 amps. What percent of RLA is that?",
+  "back": "16.0 / 15.2 = 1.053, or about 105 percent of RLA. That is acceptable, since a running compressor should not stay above roughly 110 percent.",
+  "domain": "components",
+  "id": 156
+ },
+ {
+  "chapter": 10,
+  "front": "Why do HFC refrigerants need POE oil?",
+  "back": "Mineral oil does not mix with HFC refrigerants and would not return to the compressor. POE oil mixes well but absorbs moisture quickly, so keep containers sealed and limit exposure of an open system.",
+  "domain": "components",
+  "id": 157
+ },
+ {
+  "chapter": 10,
+  "front": "What does a crankcase heater do?",
+  "back": "It keeps the oil warm during the off cycle so liquid refrigerant does not dissolve in it. Otherwise the refrigerant boils out at startup and foams the oil, which cannot lubricate.",
+  "domain": "components",
+  "id": 158
+ },
+ {
+  "chapter": 10,
+  "front": "How does a pump-down test reveal a worn compressor?",
+  "back": "Close the liquid line valve and watch the suction gauge. A good compressor pulls near zero and holds it. A worn one stalls near 20 psig and the pressure rises fast after shutdown.",
+  "domain": "components",
+  "id": 159
+ },
+ {
+  "chapter": 10,
+  "front": "What pattern of readings suggests leaking compressor valves?",
+  "back": "High suction pressure, low discharge pressure, low amp draw and a low compression ratio. A pump-down test fails and the pressures equalize quickly after shutdown.",
+  "domain": "components",
+  "id": 160
+ },
+ {
+  "chapter": 11,
+  "front": "What are the three zones of a condenser coil, in order?",
+  "back": "Desuperheating, condensing and subcooling. Vapor first cools to saturation, then changes to liquid at constant temperature, and the liquid then cools below saturation.",
+  "domain": "components",
+  "id": 161
+ },
+ {
+  "chapter": 11,
+  "front": "What is the heat of rejection factor for comfort air conditioning?",
+  "back": "About 1.25. The condenser rejects the heat the evaporator absorbed plus the heat of compression, so 36,000 BTU/hr absorbed means about 45,000 BTU/hr rejected.",
+  "domain": "components",
+  "id": 162
+ },
+ {
+  "chapter": 11,
+  "front": "What is the formula for sensible heat in air?",
+  "back": "Q = 1.08 x CFM x delta T. The 1.08 comes from 0.24 specific heat x 0.075 pounds per cubic foot x 60 minutes.",
+  "domain": "components",
+  "id": 163
+ },
+ {
+  "chapter": 11,
+  "front": "A condenser must reject 45,000 BTU/hr with a 16 degree F air rise. What CFM is needed?",
+  "back": "CFM = 45,000 / (1.08 x 16) = 45,000 / 17.28, or about 2,604 CFM. That is roughly 870 CFM per ton of cooling.",
+  "domain": "components",
+  "id": 164
+ },
+ {
+  "chapter": 11,
+  "front": "What is the formula for water heat transfer?",
+  "back": "Q = 500 x GPM x delta T. The 500 comes from 8.33 pounds per gallon x 60 minutes x 1 BTU per pound per degree F.",
+  "domain": "components",
+  "id": 165
+ },
+ {
+  "chapter": 11,
+  "front": "How much water does a 3-ton water-cooled condenser need with a 10 degree F rise?",
+  "back": "45,000 / (500 x 10) = 9 GPM, which is 3 GPM per ton. This is the standard flow for a cooling tower circuit.",
+  "domain": "components",
+  "id": 166
+ },
+ {
+  "chapter": 11,
+  "front": "What is condenser temperature difference (CTD)?",
+  "back": "Condensing temperature minus entering air temperature. About 20 degrees F is typical for a modern unit, and 30 degrees F or more points to a dirty coil, weak fan or overcharge.",
+  "domain": "components",
+  "id": 167
+ },
+ {
+  "chapter": 11,
+  "front": "How is subcooling calculated?",
+  "back": "Saturation temperature at liquid line pressure minus liquid line temperature. R-22 at 243 psig is 115 degrees F, and a 105 degree liquid line gives 10 degrees F of subcooling.",
+  "domain": "components",
+  "id": 168
+ },
+ {
+  "chapter": 11,
+  "front": "What subcooling target is common for a system with a TXV?",
+  "back": "About 8 to 12 degrees F, but always use the data plate. Low subcooling means low charge or lack of condenser surface, and high subcooling means overcharge or a liquid restriction.",
+  "domain": "components",
+  "id": 169
+ },
+ {
+  "chapter": 11,
+  "front": "Why is subcooling needed in a long liquid line?",
+  "back": "Pressure drop in the line can make liquid boil into vapor (flash gas) before it reaches the metering device, starving the evaporator. Subcooling gives margin against that.",
+  "domain": "components",
+  "id": 170
+ },
+ {
+  "chapter": 11,
+  "front": "What do approach and range mean for a cooling tower?",
+  "back": "Range is the water temperature difference across the tower, often 10 degrees F. Approach is leaving water temperature minus outdoor wet-bulb temperature, often 7 to 10 degrees F.",
+  "domain": "components",
+  "id": 171
+ },
+ {
+  "chapter": 11,
+  "front": "A tower sees 78 degrees F wet bulb with a 7 degree approach and 10 degree range. What are the water temperatures?",
+  "back": "Leaving water is 78 + 7 = 85 degrees F. Entering water is 85 + 10 = 95 degrees F.",
+  "domain": "components",
+  "id": 172
+ },
+ {
+  "chapter": 11,
+  "front": "Why does a cooling tower need water treatment?",
+  "back": "To control scale, corrosion and biological growth. Warm stagnant water can grow Legionella bacteria, which cause Legionnaires disease, so cleaning and treatment are often required by code.",
+  "domain": "components",
+  "id": 173
+ },
+ {
+  "chapter": 11,
+  "front": "Why do commercial systems need head pressure control?",
+  "back": "In cold weather condensing pressure falls, so the pressure difference across the metering device is too small to feed the evaporator. The control holds head pressure up.",
+  "domain": "components",
+  "id": 174
+ },
+ {
+  "chapter": 11,
+  "front": "Name three methods of head pressure control.",
+  "back": "Fan cycling, variable fan speed, and flooding the condenser with a head pressure control valve. Water-cooled units use a water-regulating valve.",
+  "domain": "components",
+  "id": 175
+ },
+ {
+  "chapter": 11,
+  "front": "How do you test for noncondensable gas in a system?",
+  "back": "Shut it off for several hours so it equalizes with ambient, then compare gauge pressure with the chart. A reading more than about 5 psi high suggests air. Recover, evacuate and recharge.",
+  "domain": "components",
+  "id": 176
+ },
+ {
+  "chapter": 12,
+  "front": "What happens to refrigerant in a direct expansion evaporator?",
+  "back": "Low-pressure liquid absorbs heat from the passing air and boils into vapor, leaving the coil with a few degrees of superheat.",
+  "domain": "components",
+  "id": 177
+ },
+ {
+  "chapter": 12,
+  "front": "What is evaporator TD?",
+  "back": "The entering air temperature minus the evaporator saturation temperature. A large TD dries the air, and a small TD keeps humidity high.",
+  "domain": "components",
+  "id": 178
+ },
+ {
+  "chapter": 12,
+  "front": "What evaporator TD suits comfort air conditioning, and what suits a produce cooler?",
+  "back": "Comfort cooling uses about 30 to 35 degrees F, which dehumidifies. A produce cooler needs a small TD of about 6 to 10 degrees F to keep humidity at 85 to 95 percent.",
+  "domain": "components",
+  "id": 179
+ },
+ {
+  "chapter": 12,
+  "front": "A cooler holds 35 degrees F with a 10 degree F TD. What saturation temperature is needed?",
+  "back": "35 - 10 = 25 degrees F. A coil much colder than that, such as one at 15 degrees F, would dry produce and shrivel it.",
+  "domain": "components",
+  "id": 180
+ },
+ {
+  "chapter": 12,
+  "front": "What is the formula for latent heat in air?",
+  "back": "Latent heat = 0.68 x CFM x delta grains of moisture per pound. A grain is 1/7,000 of a pound.",
+  "domain": "components",
+  "id": 181
+ },
+ {
+  "chapter": 12,
+  "front": "A 1,200 CFM unit cools 75 to 55 degrees F and removes 9 grains per pound. What are the sensible and latent loads?",
+  "back": "Sensible: 1.08 x 1,200 x 20 = 25,920 BTU/hr. Latent: 0.68 x 1,200 x 9 = 7,344 BTU/hr. Total is 33,264 BTU/hr.",
+  "domain": "components",
+  "id": 182
+ },
+ {
+  "chapter": 12,
+  "front": "What is the sensible heat ratio?",
+  "back": "Sensible heat divided by total heat. In the example, 25,920 / 33,264 = 0.78. A comfort system typically falls between 0.70 and 0.80.",
+  "domain": "components",
+  "id": 183
+ },
+ {
+  "chapter": 12,
+  "front": "How is superheat calculated at the evaporator?",
+  "back": "Suction line temperature near the coil outlet minus saturation temperature at suction pressure. R-22 at 68 psig is 40 degrees F, and a 52 degree line gives 12 degrees F.",
+  "domain": "components",
+  "id": 184
+ },
+ {
+  "chapter": 12,
+  "front": "What superheat does a TXV usually hold?",
+  "back": "About 8 to 12 degrees F. It opens when superheat rises and closes when superheat falls. A fixed orifice has no such control.",
+  "domain": "components",
+  "id": 185
+ },
+ {
+  "chapter": 12,
+  "front": "What airflow is normal for comfort cooling?",
+  "back": "About 350 to 450 CFM per ton, with 400 as the common figure. The normal temperature split is 16 to 22 degrees F, and a split above 22 points to low airflow.",
+  "domain": "components",
+  "id": 186
+ },
+ {
+  "chapter": 12,
+  "front": "At what suction pressure does an R-22 coil start to freeze?",
+  "back": "Below about 57.5 psig, since that is the saturation pressure at 32 degrees F. For R-410A the equivalent is about 101 psig.",
+  "domain": "components",
+  "id": 187
+ },
+ {
+  "chapter": 12,
+  "front": "How can you tell a low-airflow freeze from a low-charge freeze?",
+  "back": "Low airflow gives low suction with low or normal superheat and a large temperature split. Low charge gives low suction with high superheat.",
+  "domain": "components",
+  "id": 188
+ },
+ {
+  "chapter": 12,
+  "front": "What is the first step when you find a frozen coil?",
+  "back": "Shut off the compressor and run only the blower to melt the ice. Do not scrape the coil. Then find the cause, such as a dirty filter, before restarting.",
+  "domain": "components",
+  "id": 189
+ },
+ {
+  "chapter": 12,
+  "front": "List four defrost methods.",
+  "back": "Off-cycle, electric, hot gas and reverse cycle. Off-cycle needs a box above 35 degrees F, and reverse cycle is used on heat pumps.",
+  "domain": "components",
+  "id": 190
+ },
+ {
+  "chapter": 12,
+  "front": "Why is there a fan delay after defrost on a unit cooler?",
+  "back": "It lets water droplets on the coil refreeze instead of being blown into the box. The delay is usually one to three minutes.",
+  "domain": "components",
+  "id": 191
+ },
+ {
+  "chapter": 12,
+  "front": "What does a distributor do on an evaporator?",
+  "back": "It splits the liquid and flash vapor from the metering device into equal flows through feeder tubes. Plugged or kinked feeders starve circuits and cut capacity.",
+  "domain": "components",
+  "id": 192
+ },
+ {
+  "chapter": 13,
+  "front": "What two jobs does a metering device do at the same moment?",
+  "back": "It creates a restriction that holds high pressure behind it, and it feeds liquid refrigerant into the evaporator at the correct rate. Too little feed starves the coil, and too much floods it and sends liquid toward the compressor.",
+  "domain": "components",
+  "id": 193
+ },
+ {
+  "chapter": 13,
+  "front": "What is flash gas?",
+  "back": "Flash gas is the vapor that forms when high-pressure liquid drops to evaporator pressure at the metering device. A little of the liquid boils off to cool the rest to the new saturation temperature. More subcooling before the valve means less flash gas.",
+  "domain": "components",
+  "id": 194
+ },
+ {
+  "chapter": 13,
+  "front": "Why is flash gas formed before the metering device a problem?",
+  "back": "If liquid boils in the liquid line, from a restriction, a long rise or an undersized pipe, the valve must pass a vapor and liquid mixture. It passes far less refrigerant that way, so capacity falls. A steady stream of sight glass bubbles shows it.",
+  "domain": "components",
+  "id": 195
+ },
+ {
+  "chapter": 13,
+  "front": "What is a piston metering device, and how is its size marked?",
+  "back": "A piston is a small brass or plastic cylinder with a precisely drilled hole, set in a housing in the liquid line. Its size is marked in thousandths of an inch, so a piston marked .059 has a hole 0.059 inch across.",
+  "domain": "components",
+  "id": 196
+ },
+ {
+  "chapter": 13,
+  "front": "Why does superheat change with the weather on a piston system?",
+  "back": "A fixed orifice has no feedback, so only the pressure difference changes its flow. Superheat therefore moves with indoor load and outdoor temperature. Manufacturers publish a chart of target superheat based on indoor wet bulb and outdoor dry bulb temperature.",
+  "domain": "components",
+  "id": 197
+ },
+ {
+  "chapter": 13,
+  "front": "What do high superheat, high subcooling and low suction pressure together suggest?",
+  "back": "They suggest a restriction in the metering device, such as a plugged piston, strainer or TXV screen. Liquid piles up in the condenser, which raises subcooling, while the evaporator starves, which raises superheat and lowers suction pressure. Adding refrigerant would not fix it.",
+  "domain": "components",
+  "id": 198
+ },
+ {
+  "chapter": 13,
+  "front": "What controls the flow rate through a capillary tube?",
+  "back": "Flow depends mostly on the inside diameter, which is typically about 0.026 to 0.080 inch, and also on tube length and the pressure difference across it. The tube cannot be shortened without changing flow, so replacements must match the manufacturer's size.",
+  "domain": "components",
+  "id": 199
+ },
+ {
+  "chapter": 13,
+  "front": "Why are capillary tube systems called charge critical, and how are they charged?",
+  "back": "They have no receiver and no way to correct for a wrong charge, so only a narrow charge range works. Overcharge floods the evaporator and undercharge starves it. They are best charged by weighing in the amount printed on the data plate after evacuation.",
+  "domain": "components",
+  "id": 200
+ },
+ {
+  "chapter": 13,
+  "front": "What three forces balance in a thermostatic expansion valve?",
+  "back": "Bulb pressure acts to open the valve, while evaporator pressure plus spring pressure act to close it. At steady balance, bulb pressure equals evaporator pressure plus spring pressure. The spring pressure is the superheat setting expressed as a pressure.",
+  "domain": "components",
+  "id": 201
+ },
+ {
+  "chapter": 13,
+  "front": "An R-410A evaporator is at 40 degrees F, about 118 psig, and the bulb is at 50 degrees F, about 142 psig. What is the spring pressure?",
+  "back": "The spring pressure is the bulb pressure minus the evaporator pressure, so 142 minus 118 is about 24 psi. This spring setting holds the valve closed until the suction line is about 10 degrees F above the evaporator saturation temperature.",
+  "domain": "components",
+  "id": 202
+ },
+ {
+  "chapter": 13,
+  "front": "When is an external equalizer required on a TXV?",
+  "back": "It is required when the pressure drop through the evaporator is large enough to distort the reading, and always on coils with a distributor. The small tube from the valve to the suction line gives the diaphragm the true evaporator outlet pressure.",
+  "domain": "components",
+  "id": 203
+ },
+ {
+  "chapter": 13,
+  "front": "Where and how should a TXV sensing bulb be mounted?",
+  "back": "Mount it on a clean, bare, straight horizontal section of suction line near the evaporator outlet, clamped tight and insulated. On lines up to 7/8 inch it goes at 3 or 9 o'clock. On larger lines it goes at 4 or 8 o'clock.",
+  "domain": "components",
+  "id": 204
+ },
+ {
+  "chapter": 13,
+  "front": "Which way does turning a TXV adjustment stem change superheat?",
+  "back": "Turning the stem clockwise compresses the spring, raising spring pressure and the superheat setting. Counterclockwise lowers it. One turn usually changes superheat by about 3 to 4 degrees F, so move a quarter or half turn and wait 10 to 15 minutes.",
+  "domain": "components",
+  "id": 205
+ },
+ {
+  "chapter": 13,
+  "front": "What is hunting in a TXV system, and what causes it?",
+  "back": "Hunting is a regular swing of suction pressure and superheat as the valve opens and closes too far. Common causes are an oversized valve, a poorly placed or loose bulb, uneven coil circuits, and very light loads. Check the bulb first.",
+  "domain": "components",
+  "id": 206
+ },
+ {
+  "chapter": 13,
+  "front": "How do you test whether a TXV bulb has lost its charge?",
+  "back": "Warm the bulb in your hand or in warm water while watching suction pressure. A rising pressure means the bulb works. No response means the bulb or capillary line has lost its charge, the valve stays closed, and the valve must be replaced.",
+  "domain": "components",
+  "id": 207
+ },
+ {
+  "chapter": 13,
+  "front": "How does an electronic expansion valve control superheat?",
+  "back": "A thermistor and a pressure transducer feed a controller, which calculates superheat and drives a stepper motor in small steps to open or close a needle valve. It can hold a low superheat of 4 to 8 degrees F and be adjusted while running.",
+  "domain": "components",
+  "id": 208
+ },
+ {
+  "chapter": 14,
+  "front": "Name the three contaminants a filter drier fights.",
+  "back": "Moisture, acid and solid particles. Moisture can freeze at the metering device and form acid with ester oil. Acid attacks copper, bearings and motor insulation. Solids such as scale, filings and flux can scratch bearings and plug small orifices.",
+  "domain": "components",
+  "id": 209
+ },
+ {
+  "chapter": 14,
+  "front": "What are the three common desiccants in refrigeration driers?",
+  "back": "Silica gel, activated alumina and molecular sieve. Alumina holds acid as well as water, and molecular sieve captures water molecules by pore size. Many driers use a blend of molecular sieve and activated alumina to remove both water and acid.",
+  "domain": "components",
+  "id": 210
+ },
+ {
+  "chapter": 14,
+  "front": "Where does a standard filter drier belong in the circuit, and why?",
+  "back": "It goes in the liquid line just ahead of the metering device. The refrigerant is fully liquid and moving steadily there, and the drier catches moisture, acid and debris one step before they reach the small opening where trouble begins.",
+  "domain": "components",
+  "id": 211
+ },
+ {
+  "chapter": 14,
+  "front": "Why must drier caps stay on until the moment of installation?",
+  "back": "The desiccant begins absorbing moisture from the air the instant the caps come off. A drier left open loses much of its water capacity before it is installed, and it cannot be dried out and reused in the field.",
+  "domain": "components",
+  "id": 212
+ },
+ {
+  "chapter": 14,
+  "front": "What temperature drop across a liquid-line drier signals a restriction?",
+  "back": "A drop of more than about 3 degrees F suggests a restriction, and 10 degrees F or more is a certain sign. Pressure falls across the plugged drier, some liquid flashes to vapor, and the outlet turns cooler, sometimes sweating or frosting.",
+  "domain": "components",
+  "id": 213
+ },
+ {
+  "chapter": 14,
+  "front": "A sight glass shows steady bubbles. Why compare it with subcooling before adding charge?",
+  "back": "Bubbles can come from low charge, a restricted drier, a long vertical rise or an undersized line. Near-zero subcooling with bubbles points to low charge. Bubbles with high subcooling point to a restriction ahead of the glass, where adding charge would not help.",
+  "domain": "components",
+  "id": 214
+ },
+ {
+  "chapter": 14,
+  "front": "Why does a suction-line filter drier get installed after a motor burnout?",
+  "back": "Acid, carbon and sludge from the burnout remain in the lines and return to the new compressor through the suction line. The suction filter catches this debris, protecting the new compressor while an acid-removing liquid-line drier cleans the circulating refrigerant.",
+  "domain": "components",
+  "id": 215
+ },
+ {
+  "chapter": 14,
+  "front": "How do you know when a temporary suction drier should be replaced or removed?",
+  "back": "Measure the pressure drop across it at startup and again after several days. A drop rising beyond the maker's limit, usually a few psi, shows it is loading with debris. Remove it once an oil acid test comes back clean.",
+  "domain": "components",
+  "id": 216
+ },
+ {
+  "chapter": 14,
+  "front": "What does a liquid receiver do, and where is it located?",
+  "back": "A liquid receiver is a tank in the liquid line between the condenser and the metering device. It stores refrigerant when the amount of liquid in the circuit varies, and it holds the charge during a pump down for repairs.",
+  "domain": "components",
+  "id": 217
+ },
+ {
+  "chapter": 14,
+  "front": "What is the king valve?",
+  "back": "The king valve is the manual shutoff valve on the outlet of the receiver. During a pump down, the technician closes it and runs the compressor to pull refrigerant from the low side into the receiver and condenser.",
+  "domain": "components",
+  "id": 218
+ },
+ {
+  "chapter": 14,
+  "front": "What is the maximum fill for a receiver or recovery cylinder, and why?",
+  "back": "The limit is 80 percent of the volume. Liquid expands as it warms, and a tank filled completely with liquid has no room for expansion, so pressure can rise very quickly and burst the shell.",
+  "domain": "components",
+  "id": 219
+ },
+ {
+  "chapter": 14,
+  "front": "A 1.0 cubic foot receiver holds R-134a liquid at about 75 pounds per cubic foot. How much can it hold at 80 percent fill?",
+  "back": "At 80 percent fill the receiver can hold 0.80 times 1.0 times 75, which is about 60 pounds of liquid. A system charge larger than that needs a bigger receiver or a recovery cylinder.",
+  "domain": "components",
+  "id": 220
+ },
+ {
+  "chapter": 14,
+  "front": "What does a suction accumulator protect against, and how does oil return?",
+  "back": "It protects the compressor from liquid slugging, since liquid cannot be compressed. A small hole at the bottom of the U-tube bleeds liquid and oil slowly into the vapor stream, so oil returns to the crankcase at a controlled rate.",
+  "domain": "components",
+  "id": 221
+ },
+ {
+  "chapter": 14,
+  "front": "Why do compressors use crankcase heaters?",
+  "back": "A heater keeps the oil warmer than the coolest part of the system when the compressor is off, so refrigerant cannot migrate into the oil. Without it, the dissolved refrigerant boils out at startup, foaming the oil and starving the bearings.",
+  "domain": "components",
+  "id": 222
+ },
+ {
+  "chapter": 14,
+  "front": "Describe back-seated, mid-seated and front-seated positions of a service valve.",
+  "back": "Back-seated has the stem fully out, line open and port closed, which is the normal running position. Mid-seated opens the port to the line for gauge readings. Front-seated has the stem fully in, blocking flow toward the system so a section can be isolated.",
+  "domain": "components",
+  "id": 223
+ },
+ {
+  "chapter": 14,
+  "front": "How does a liquid-line solenoid pump down control work?",
+  "back": "The thermostat controls the solenoid valve. When the room is satisfied, the solenoid closes, the running compressor pulls the low side down, and a low-pressure switch then stops it. Refrigerant is stored on the high side, which limits migration to the compressor during the off cycle.",
+  "domain": "components",
+  "id": 224
+ },
+ {
+  "chapter": 15,
+  "front": "What does dry bulb temperature measure?",
+  "back": "Dry bulb is the ordinary air temperature read on a dry thermometer. It measures the sensible heat of the air, the heat you can sense, and it is the highest of the three temperatures in air that is not saturated.",
+  "domain": "air_side",
+  "id": 225
+ },
+ {
+  "chapter": 15,
+  "front": "What is wet bulb temperature, and how is it measured?",
+  "back": "It is the temperature read by a thermometer with a wet wick over the bulb while air moves past it. Evaporation cools the bulb, so the reading is below dry bulb. A sling psychrometer or electronic meter measures it.",
+  "domain": "air_side",
+  "id": 226
+ },
+ {
+  "chapter": 15,
+  "front": "What is the dew point?",
+  "back": "The dew point is the temperature at which air becomes saturated and water vapor starts to condense into liquid when the air is cooled. Any surface colder than the dew point of the nearby air will collect moisture.",
+  "domain": "air_side",
+  "id": 227
+ },
+ {
+  "chapter": 15,
+  "front": "What is the order of dry bulb, wet bulb and dew point in unsaturated air?",
+  "back": "Dry bulb is highest, wet bulb is in the middle and dew point is lowest. They are equal only at saturation, so a dew point reading above the wet bulb signals a bad measurement.",
+  "domain": "air_side",
+  "id": 228
+ },
+ {
+  "chapter": 15,
+  "front": "Why does relative humidity drop when winter air is heated indoors?",
+  "back": "Warm air can hold much more water than cold air, so the same moisture content becomes a smaller fraction of the capacity. For example, 30 degrees F air at 80 percent RH, heated to 70 degrees F, falls to about 18 percent.",
+  "domain": "air_side",
+  "id": 229
+ },
+ {
+  "chapter": 15,
+  "front": "What is humidity ratio, and what units are used?",
+  "back": "Humidity ratio is the mass of water vapor per mass of dry air, in pounds or grains of water per pound of dry air. There are 7,000 grains in a pound. It stays constant when air is heated or cooled without moisture change.",
+  "domain": "air_side",
+  "id": 230
+ },
+ {
+  "chapter": 15,
+  "front": "What are the approximate properties of air at 75 degrees F and 50 percent RH?",
+  "back": "Wet bulb is about 62.5 degrees F, dew point about 55 degrees F, humidity ratio about 65 grains per pound, and enthalpy about 28 BTU per pound. These make a handy reference for checking readings.",
+  "domain": "air_side",
+  "id": 231
+ },
+ {
+  "chapter": 15,
+  "front": "What is enthalpy?",
+  "back": "Enthalpy is the total heat content of air in BTU per pound of dry air, combining sensible heat in the temperature with latent heat in the moisture. The difference across a coil shows the total heat removed per pound of air.",
+  "domain": "air_side",
+  "id": 232
+ },
+ {
+  "chapter": 15,
+  "front": "What is the density of standard air?",
+  "back": "Standard air has a density of 0.075 pound per cubic foot, or a specific volume of about 13.33 cubic feet per pound. Nearly all airflow formulas, including the 1.08 and 4.5 factors, assume this condition.",
+  "domain": "air_side",
+  "id": 233
+ },
+ {
+  "chapter": 15,
+  "front": "What is the formula for sensible heat in an airstream, and where does 1.08 come from?",
+  "back": "Sensible heat in BTU per hour equals 1.08 times CFM times the temperature difference in degrees F. The 1.08 is 0.24 BTU per pound per degree F times 60 minutes times 0.075 pound per cubic foot.",
+  "domain": "air_side",
+  "id": 234
+ },
+ {
+  "chapter": 15,
+  "front": "What is the formula for latent heat in an airstream?",
+  "back": "Latent heat in BTU per hour equals 0.68 times CFM times the change in grains of moisture per pound of air. The 0.68 comes from 60 times 0.075 times about 1,060 BTU per pound, divided by 7,000 grains per pound.",
+  "domain": "air_side",
+  "id": 235
+ },
+ {
+  "chapter": 15,
+  "front": "What is the formula for total heat using enthalpy?",
+  "back": "Total heat in BTU per hour equals 4.5 times CFM times the change in enthalpy in BTU per pound. The 4.5 is 60 minutes times 0.075 pound per cubic foot, the pounds of standard air per hour for each CFM.",
+  "domain": "air_side",
+  "id": 236
+ },
+ {
+  "chapter": 15,
+  "front": "What is sensible heat ratio, and what is a typical residential value?",
+  "back": "Sensible heat ratio is sensible heat divided by total heat. A residential coil commonly runs around 0.70 to 0.80. A lower value means more of the coil's work goes into removing moisture, and a higher value means less moisture removal.",
+  "domain": "air_side",
+  "id": 237
+ },
+ {
+  "chapter": 15,
+  "front": "Why must a cooling coil surface be colder than the dew point of the entering air?",
+  "back": "Water vapor condenses only on a surface colder than the dew point of the air touching it. If the coil stays warmer than the dew point, it cools the air but removes no moisture, and the house can feel clammy.",
+  "domain": "air_side",
+  "id": 238
+ },
+ {
+  "chapter": 15,
+  "front": "Why can too much airflow across a coil leave a house humid?",
+  "back": "More air passing in the same time leaves the coil surface warmer, so less moisture condenses. Short cycling from an oversized system has a similar effect. A typical design airflow of about 400 CFM per ton helps balance cooling and dehumidification.",
+  "domain": "air_side",
+  "id": 239
+ },
+ {
+  "chapter": 15,
+  "front": "Why does a fixed-orifice charging chart use indoor wet bulb?",
+  "back": "Wet bulb shows how much total heat the entering air carries, and so how much refrigerant the coil can boil. A high wet bulb means a heavy load and a lower target superheat. A low wet bulb means a higher target superheat.",
+  "domain": "air_side",
+  "id": 240
+ },
+ {
+  "chapter": 16,
+  "front": "About how much airflow does a cooling system move per ton, and what is the design range?",
+  "back": "A typical system moves about 400 CFM per ton, with a design range of 350 to 450. A 3-ton unit therefore moves about 1,200 CFM. Humid climates favor the lower end for more moisture removal.",
+  "domain": "air_side",
+  "id": 241
+ },
+ {
+  "chapter": 16,
+  "front": "How do axial and centrifugal fans differ?",
+  "back": "An axial fan moves large volumes of air along its shaft at low pressure, like a condenser fan. A centrifugal blower flings air outward from a wheel and builds more pressure, so it is used in furnaces and air handlers with ducts.",
+  "domain": "air_side",
+  "id": 242
+ },
+ {
+  "chapter": 16,
+  "front": "How do a PSC motor and an ECM differ in handling a dirty filter?",
+  "back": "A PSC motor has fixed speed taps and loses airflow as resistance rises. An ECM can hold steady airflow by raising torque as the filter loads, so cooling may seem normal while power use climbs and the dirty filter stays hidden.",
+  "domain": "air_side",
+  "id": 243
+ },
+ {
+  "chapter": 16,
+  "front": "State the three fan laws.",
+  "back": "Airflow is proportional to speed, static pressure is proportional to the square of the speed, and power is proportional to the cube of the speed. Doubling speed doubles CFM, quadruples pressure and raises power eightfold.",
+  "domain": "air_side",
+  "id": 244
+ },
+ {
+  "chapter": 16,
+  "front": "A blower at 800 RPM delivers 1,000 CFM. What is the flow at 1,000 RPM?",
+  "back": "The speed ratio is 1,000 divided by 800, or 1.25, and airflow is proportional to speed. The new flow is 1,000 times 1.25, or 1,250 CFM. Static pressure rises by 1.25 squared and power by 1.25 cubed.",
+  "domain": "air_side",
+  "id": 245
+ },
+ {
+  "chapter": 16,
+  "front": "What are static, velocity and total pressure in a duct?",
+  "back": "Static pressure pushes outward on the duct walls whether air moves or not. Velocity pressure comes from the air's motion and acts in the direction of flow. Total pressure is their sum. All are measured in inches of water column.",
+  "domain": "air_side",
+  "id": 246
+ },
+ {
+  "chapter": 16,
+  "front": "What is the formula for velocity pressure?",
+  "back": "Velocity pressure in inches of water column equals the air speed in feet per minute divided by 4,005, squared. At 1,000 FPM it is about 0.062 inch, and at 800 FPM about 0.040 inch.",
+  "domain": "air_side",
+  "id": 247
+ },
+ {
+  "chapter": 16,
+  "front": "How is total external static pressure found, and what is a typical rating?",
+  "back": "Add the return side drop and the supply side pressure, both taken as positive numbers, measured outside the equipment cabinet. Most residential equipment is rated at about 0.50 inch of water column. A reading near 1.0 shows serious restriction.",
+  "domain": "air_side",
+  "id": 248
+ },
+ {
+  "chapter": 16,
+  "front": "What is the formula linking CFM, velocity and area?",
+  "back": "CFM equals velocity in feet per minute times cross-sectional area in square feet. A 14-inch round duct has an area of about 1.07 square feet, so at 800 FPM it carries about 855 CFM.",
+  "domain": "air_side",
+  "id": 249
+ },
+ {
+  "chapter": 16,
+  "front": "Why is a traverse used when measuring duct velocity?",
+  "back": "Air moves fastest at the center of a duct and slower near the walls because of friction. Taking several readings across the duct and averaging them gives a true mean velocity, while a single center reading overstates the flow.",
+  "domain": "air_side",
+  "id": 250
+ },
+ {
+  "chapter": 16,
+  "front": "How is the friction rate found in the equal friction duct method?",
+  "back": "Subtract the pressure used by the filter, coil and registers from the blower's rating, divide what remains by the longest equivalent run in feet, and multiply by 100. The result is in inches of water column per 100 feet.",
+  "domain": "air_side",
+  "id": 251
+ },
+ {
+  "chapter": 16,
+  "front": "What does a poorly installed flexible duct do to airflow?",
+  "back": "A sagging, stretched or kinked flexible duct can have two or three times the friction of a straight, supported one. A sharp kink can cut flow in half, and many comfort complaints in far rooms trace to this fault.",
+  "domain": "air_side",
+  "id": 252
+ },
+ {
+  "chapter": 16,
+  "front": "How much duct leakage has been measured in older systems, and how is it fixed?",
+  "back": "Studies of older homes have found leakage of about 20 to 30 percent of system airflow. Seal seams and joints with mastic or approved foil tape. Ordinary cloth duct tape fails within a few years and is not suitable.",
+  "domain": "air_side",
+  "id": 253
+ },
+ {
+  "chapter": 16,
+  "front": "Why are ducts in attics insulated and wrapped with a vapor barrier?",
+  "back": "Insulation reduces heat gain through the duct wall and keeps the outer surface above the dew point of the humid attic air. That prevents sweating and dripping onto the ceiling below, as long as the jacket stays intact.",
+  "domain": "air_side",
+  "id": 254
+ },
+ {
+  "chapter": 16,
+  "front": "How can airflow be estimated from the temperature split?",
+  "back": "Airflow in CFM equals sensible heat in BTU per hour divided by 1.08 times the temperature split. For 27,000 BTU per hour and a 25 degree F split, CFM is 27,000 divided by 27, or 1,000.",
+  "domain": "air_side",
+  "id": 255
+ },
+ {
+  "chapter": 16,
+  "front": "What do a wide temperature split, normal superheat and high static pressure indicate together?",
+  "back": "They indicate restricted airflow, such as a dirty filter, closed damper, crushed duct or undersized return, which chills the coil and lowers suction pressure. Adding refrigerant would be wrong. Fix the restriction and recheck the split, which should settle near 20 degrees F.",
+  "domain": "air_side",
+  "id": 256
+ },
+ {
+  "chapter": 17,
+  "front": "State Ohm's law and its three forms.",
+  "back": "V = I x R, so I = V / R and R = V / I, with V in volts, I in amps and R in ohms.",
+  "domain": "electrical",
+  "id": 257
+ },
+ {
+  "chapter": 17,
+  "front": "A 240 V heater element measures 12 ohms. What current does it draw?",
+  "back": "Current is voltage divided by resistance: 240 / 12 = 20 amps. Power is 240 x 20 = 4,800 watts, or 4.8 kW.",
+  "domain": "electrical",
+  "id": 258
+ },
+ {
+  "chapter": 17,
+  "front": "How many BTU per hour equal one kilowatt?",
+  "back": "One kilowatt equals 3,412 BTU per hour, so a 5 kW heat strip delivers 5 x 3,412 = 17,060 BTU per hour.",
+  "domain": "electrical",
+  "id": 259
+ },
+ {
+  "chapter": 17,
+  "front": "What happens to total resistance when resistors are connected in parallel?",
+  "back": "Total resistance is always less than the smallest branch. Two 20 ohm resistors in parallel give (20 x 20) / (20 + 20) = 10 ohms.",
+  "domain": "electrical",
+  "id": 260
+ },
+ {
+  "chapter": 17,
+  "front": "In a series circuit, what is the same everywhere and what adds up?",
+  "back": "Current is the same through every part, and resistances add. Voltage divides among the parts in proportion to their resistances.",
+  "domain": "electrical",
+  "id": 261
+ },
+ {
+  "chapter": 17,
+  "front": "Why does a safety switch sit in series with the contactor coil?",
+  "back": "Any open series switch breaks the whole path, so one unsafe condition opens the switch and drops out the coil, shutting the load down.",
+  "domain": "electrical",
+  "id": 262
+ },
+ {
+  "chapter": 17,
+  "front": "What voltages does a typical home receive from split-phase service?",
+  "back": "About 120 volts from each hot wire to neutral and about 240 volts between the two hot wires.",
+  "domain": "electrical",
+  "id": 263
+ },
+ {
+  "chapter": 17,
+  "front": "How is 208 V three-phase related to 120 V line-to-neutral?",
+  "back": "In a wye system, line-to-line voltage is 1.732 times line-to-neutral, so 120 x 1.732 = 208 volts. Likewise 277 x 1.732 = 480 volts.",
+  "domain": "electrical",
+  "id": 264
+ },
+ {
+  "chapter": 17,
+  "front": "How do you calculate three-phase voltage imbalance?",
+  "back": "Find the average of the three voltages, take the largest deviation from that average, divide by the average and multiply by 100. Keep it under about 2 percent.",
+  "domain": "electrical",
+  "id": 265
+ },
+ {
+  "chapter": 17,
+  "front": "Why check phase order on a new three-phase scroll compressor installation?",
+  "back": "Scroll compressors run backward if two phases are swapped, which can damage them within minutes, so rotation must be confirmed at startup.",
+  "domain": "electrical",
+  "id": 266
+ },
+ {
+  "chapter": 17,
+  "front": "What current can a 40 VA, 24 volt control transformer supply?",
+  "back": "40 / 24 = 1.67 amps. Exceeding that overheats the transformer or blows its fuse, so total all coil and accessory loads.",
+  "domain": "electrical",
+  "id": 267
+ },
+ {
+  "chapter": 17,
+  "front": "What does power factor mean in a motor circuit?",
+  "back": "It is the ratio of real power in watts to apparent power in volt-amps. A compressor at 240 V, 15 A, 0.85 PF uses 240 x 15 x 0.85 = 3,060 watts.",
+  "domain": "electrical",
+  "id": 268
+ },
+ {
+  "chapter": 17,
+  "front": "How is Minimum Circuit Ampacity (MCA) calculated?",
+  "back": "MCA is 125 percent of the largest motor load plus all other loads. With a 16.0 A compressor and a 1.5 A fan: 1.25 x 16 + 1.5 = 21.5 amps.",
+  "domain": "electrical",
+  "id": 269
+ },
+ {
+  "chapter": 17,
+  "front": "What does MOCP on a nameplate limit?",
+  "back": "Maximum Overcurrent Protection is the largest fuse or breaker size allowed for the unit. A breaker larger than the MOCP must never be used.",
+  "domain": "electrical",
+  "id": 270
+ },
+ {
+  "chapter": 17,
+  "front": "What supply voltage range do most manufacturers allow?",
+  "back": "Plus or minus 10 percent of nameplate voltage. For a 230 volt unit that is 207 to 253 volts, measured with the unit running.",
+  "domain": "electrical",
+  "id": 271
+ },
+ {
+  "chapter": 17,
+  "front": "How should you measure current with a clamp meter?",
+  "back": "Clamp around one conductor only. Clamping a cable with both hot and neutral cancels the magnetic fields and reads near zero.",
+  "domain": "electrical",
+  "id": 272
+ },
+ {
+  "chapter": 18,
+  "front": "What does a run capacitor do in a PSC motor?",
+  "back": "It stays in series with the second winding and shifts its current about 90 degrees, creating a smooth rotating field that gives running torque and efficiency.",
+  "domain": "electrical",
+  "id": 273
+ },
+ {
+  "chapter": 18,
+  "front": "What are the three terminals on a dual run capacitor?",
+  "back": "C is common, HERM connects to the compressor, and FAN connects to the condenser fan motor. A typical label reads 45/5 uF.",
+  "domain": "electrical",
+  "id": 274
+ },
+ {
+  "chapter": 18,
+  "front": "What tolerance should a run capacitor meet?",
+  "back": "Measured capacitance should be within about plus or minus 6 percent of its label (check the printed tolerance). A 45 uF part should read 42.3 to 47.7 uF.",
+  "domain": "electrical",
+  "id": 275
+ },
+ {
+  "chapter": 18,
+  "front": "Can a replacement capacitor have a higher voltage rating than the original?",
+  "back": "Yes, a higher voltage rating adds margin, so a 440 V part can replace a 370 V part. A lower voltage rating must never be used, but microfarads must match.",
+  "domain": "electrical",
+  "id": 276
+ },
+ {
+  "chapter": 18,
+  "front": "How do you safely discharge a capacitor?",
+  "back": "After lockout and tagout, connect a resistor of about 20,000 ohms and 2 watts or more across the terminals with insulated leads. Never short it with a screwdriver.",
+  "domain": "electrical",
+  "id": 277
+ },
+ {
+  "chapter": 18,
+  "front": "Calculate synchronous speed of a 4-pole motor at 60 hertz.",
+  "back": "Synchronous rpm = 120 x 60 / 4 = 1,800 rpm. Slip lowers the loaded speed to about 1,725 rpm.",
+  "domain": "electrical",
+  "id": 278
+ },
+ {
+  "chapter": 18,
+  "front": "How many watts equal one horsepower?",
+  "back": "One horsepower equals 746 watts, so a 1/4 hp motor delivers 186.5 watts of shaft power.",
+  "domain": "electrical",
+  "id": 279
+ },
+ {
+  "chapter": 18,
+  "front": "A 1/4 hp motor is 70 percent efficient. What is its input power?",
+  "back": "Output is 186.5 watts, and input is 186.5 / 0.70 = about 266 watts. The roughly 80 watt difference is lost as heat.",
+  "domain": "electrical",
+  "id": 280
+ },
+ {
+  "chapter": 18,
+  "front": "What do locked rotor amps (LRA) describe?",
+  "back": "The current drawn at the instant of starting or with a stuck rotor, typically 4 to 6 times running amps. A stuck motor can burn its winding quickly.",
+  "domain": "electrical",
+  "id": 281
+ },
+ {
+  "chapter": 18,
+  "front": "How do single-phase compressor winding readings relate?",
+  "back": "C to S plus C to R equals S to R. For example, 2.1 + 3.6 = 5.7 ohms. The run winding has the lowest resistance.",
+  "domain": "electrical",
+  "id": 282
+ },
+ {
+  "chapter": 18,
+  "front": "What does a reading from a motor terminal to the shell indicate?",
+  "back": "Any continuity or low resistance to the shell means a grounded winding, a serious fault. Each terminal should read open to the shell.",
+  "domain": "electrical",
+  "id": 283
+ },
+ {
+  "chapter": 18,
+  "front": "What is an ECM motor?",
+  "back": "An electronically commutated motor is a brushless DC motor with permanent magnets and a built-in module. It is efficient, adjusts speed and needs no run capacitor.",
+  "domain": "electrical",
+  "id": 284
+ },
+ {
+  "chapter": 18,
+  "front": "What is the job of a contactor?",
+  "back": "It is an electromagnetic switch in which a 24 volt coil closes contacts to feed line voltage to the compressor and condenser fan.",
+  "domain": "electrical",
+  "id": 285
+ },
+ {
+  "chapter": 18,
+  "front": "How do you test a closed contactor's contacts under load?",
+  "back": "Measure voltage across one closed pole. A good contact reads under about 0.5 volt, and several volts means pitted, resistive contacts that need replacement.",
+  "domain": "electrical",
+  "id": 286
+ },
+ {
+  "chapter": 18,
+  "front": "What does a PTC hard start device do?",
+  "back": "A positive temperature coefficient thermistor passes start-capacitor current while cool, then heats and blocks it within a fraction of a second, dropping the capacitor out.",
+  "domain": "electrical",
+  "id": 287
+ },
+ {
+  "chapter": 18,
+  "front": "Why is a hard start kit not a repair?",
+  "back": "It treats a symptom. Look first for a weak run capacitor, low voltage, unequalized pressures or a worn compressor before adding a kit.",
+  "domain": "electrical",
+  "id": 288
+ },
+ {
+  "chapter": 19,
+  "front": "What voltage do residential control circuits use, and what makes it?",
+  "back": "24 volts, supplied by a control transformer, often rated 40 VA. R is the hot side and C is the common return.",
+  "domain": "controls",
+  "id": 289
+ },
+ {
+  "chapter": 19,
+  "front": "What does the Y terminal on a thermostat do?",
+  "back": "It calls for cooling. The signal passes through the safety switches to the outdoor contactor coil and starts the compressor and condenser fan.",
+  "domain": "controls",
+  "id": 290
+ },
+ {
+  "chapter": 19,
+  "front": "What do the G, W and O/B thermostat terminals do?",
+  "back": "G calls for the indoor blower, W calls for heat, and O or B controls the reversing valve on a heat pump.",
+  "domain": "controls",
+  "id": 291
+ },
+ {
+  "chapter": 19,
+  "front": "Are thermostat wire colors a fixed standard?",
+  "back": "No, colors are a convention. Verify each wire with a meter or the labeled terminal before connecting anything.",
+  "domain": "controls",
+  "id": 292
+ },
+ {
+  "chapter": 19,
+  "front": "What is thermostat differential?",
+  "back": "The number of degrees between turning on and turning off. A tight differential gives steady comfort but more starts per hour.",
+  "domain": "controls",
+  "id": 293
+ },
+ {
+  "chapter": 19,
+  "front": "What is short cycling and why is it harmful?",
+  "back": "Too-frequent starts, beyond roughly 3 to 6 per hour. It wears the contactor and compressor and wastes energy during each start.",
+  "domain": "controls",
+  "id": 294
+ },
+ {
+  "chapter": 19,
+  "front": "What does a heat anticipator do?",
+  "back": "It warms the thermostat slightly during a heating call so the burner shuts off a little early and the room does not overshoot the setpoint.",
+  "domain": "controls",
+  "id": 295
+ },
+ {
+  "chapter": 19,
+  "front": "Define normally open and normally closed contacts.",
+  "back": "Normally open contacts are open at rest and close when actuated. Normally closed contacts are closed at rest and open when actuated.",
+  "domain": "controls",
+  "id": 296
+ },
+ {
+  "chapter": 19,
+  "front": "Why is a high-pressure switch wired normally closed?",
+  "back": "It stays closed during normal operation, passing control voltage, and opens when head pressure reaches the cutout, such as about 600 psig on R-410A.",
+  "domain": "controls",
+  "id": 297
+ },
+ {
+  "chapter": 19,
+  "front": "What happens when a low-pressure switch opens on an empty system?",
+  "back": "The compressor stays off. The switch is working as designed, protecting the compressor from running with little refrigerant and oil return.",
+  "domain": "controls",
+  "id": 298
+ },
+ {
+  "chapter": 19,
+  "front": "What voltage appears across an open switch in a series control loop?",
+  "back": "Nearly the full supply voltage, about 24 volts, because no current flows. A closed switch reads about 0 volts across it.",
+  "domain": "controls",
+  "id": 299
+ },
+ {
+  "chapter": 19,
+  "front": "In a ladder diagram, where do switches and loads sit?",
+  "back": "Switches and sensors sit on the left of each rung, and loads such as coils and motors sit on the right, next to the return rail.",
+  "domain": "controls",
+  "id": 300
+ },
+ {
+  "chapter": 19,
+  "front": "What is the difference between a schematic and a pictorial diagram?",
+  "back": "A schematic shows how the circuit works in logical layout. A pictorial diagram shows where parts physically sit and how wires connect.",
+  "domain": "controls",
+  "id": 301
+ },
+ {
+  "chapter": 19,
+  "front": "What is a sequence of operation?",
+  "back": "A written, step-by-step description of what happens after a thermostat call. The step where a system stops names the area of the fault.",
+  "domain": "controls",
+  "id": 302
+ },
+ {
+  "chapter": 19,
+  "front": "How much current does a 40 VA, 24 volt transformer handle, and what overloads it?",
+  "back": "40 / 24 = 1.67 amps. Adding zone dampers or accessories beyond that total current overheats the transformer or blows its fuse.",
+  "domain": "controls",
+  "id": 303
+ },
+ {
+  "chapter": 19,
+  "front": "What does a blown 3 or 5 amp low-voltage fuse indicate?",
+  "back": "A short in the 24 volt circuit, such as a pinched wire or shorted coil. Find and fix the short before replacing the fuse.",
+  "domain": "controls",
+  "id": 304
+ },
+ {
+  "chapter": 20,
+  "front": "How many BTU per hour is one ton of cooling?",
+  "back": "One ton equals 12,000 BTU per hour, so a 36,000 BTU/hr system is 3 tons.",
+  "domain": "systems",
+  "id": 305
+ },
+ {
+  "chapter": 20,
+  "front": "What is the usual airflow target per ton?",
+  "back": "About 400 CFM per ton, with 350 often used in humid climates and 450 in dry climates. A 3-ton system moves about 1,200 CFM.",
+  "domain": "systems",
+  "id": 306
+ },
+ {
+  "chapter": 20,
+  "front": "What formula gives sensible cooling capacity from airflow?",
+  "back": "Sensible BTU/hr = 1.08 x CFM x delta T. For 1,200 CFM and a 20 degree split: 1.08 x 1,200 x 20 = 25,920 BTU/hr.",
+  "domain": "systems",
+  "id": 307
+ },
+ {
+  "chapter": 20,
+  "front": "What is sensible heat ratio?",
+  "back": "The sensible share of total cooling capacity. Residential cooling is typically around 0.70 to 0.80, with the remainder removing moisture.",
+  "domain": "systems",
+  "id": 308
+ },
+ {
+  "chapter": 20,
+  "front": "What is a normal temperature split across a residential evaporator?",
+  "back": "Roughly 16 to 22 degrees F. A low split can mean low charge or a dirty coil, and a high split can mean low airflow.",
+  "domain": "systems",
+  "id": 309
+ },
+ {
+  "chapter": 20,
+  "front": "Define EER and give an example.",
+  "back": "EER is cooling output in BTU/hr divided by input watts at one test condition. 30,000 BTU/hr at 2,500 watts is an EER of 12.",
+  "domain": "systems",
+  "id": 310
+ },
+ {
+  "chapter": 20,
+  "front": "How does SEER2 differ from SEER?",
+  "back": "SEER2 is tested with higher duct static pressure, so it gives numbers a few percent lower for the same equipment. It has applied to new equipment since 2023.",
+  "domain": "systems",
+  "id": 311
+ },
+ {
+  "chapter": 20,
+  "front": "Which refrigerant lines in a split system are insulated, and why?",
+  "back": "The suction line is insulated to stop sweating and heat gain. The larger vapor line would otherwise lose capacity, while the warm liquid line is usually left bare.",
+  "domain": "systems",
+  "id": 312
+ },
+ {
+  "chapter": 20,
+  "front": "How is a fixed-piston system normally charged?",
+  "back": "By superheat, using the manufacturer's target table based on indoor wet-bulb and outdoor dry-bulb temperatures, after airflow is verified.",
+  "domain": "systems",
+  "id": 313
+ },
+ {
+  "chapter": 20,
+  "front": "How is a TXV system normally charged?",
+  "back": "By subcooling, because the valve holds superheat steady. Use the nameplate target, with 8 to 14 degrees F as a common range.",
+  "domain": "systems",
+  "id": 314
+ },
+ {
+  "chapter": 20,
+  "front": "Write the superheat and subcooling formulas.",
+  "back": "Superheat = suction line temperature minus suction saturation temperature. Subcooling = liquid saturation temperature minus liquid line temperature.",
+  "domain": "systems",
+  "id": 315
+ },
+ {
+  "chapter": 20,
+  "front": "What readings indicate an undercharged system?",
+  "back": "Low suction and head pressures, high superheat, and low subcooling. Find and repair the leak before recharging by weight.",
+  "domain": "systems",
+  "id": 316
+ },
+ {
+  "chapter": 20,
+  "front": "Why must a condensate drain be trapped and sloped?",
+  "back": "A downward slope of at least 1/8 inch per foot prevents standing water, and the trap keeps air from moving through the drain line.",
+  "domain": "systems",
+  "id": 317
+ },
+ {
+  "chapter": 20,
+  "front": "Why should a secondary pan or float switch be installed?",
+  "back": "A clogged drain can overflow and damage ceilings. A float switch shuts the system down before water spills.",
+  "domain": "systems",
+  "id": 318
+ },
+ {
+  "chapter": 20,
+  "front": "Why check airflow before adjusting refrigerant charge?",
+  "back": "A charge set over restricted airflow will be wrong once the airflow is fixed. Check filter, ducts and static pressure first.",
+  "domain": "systems",
+  "id": 319
+ },
+ {
+  "chapter": 20,
+  "front": "What causes short cycling in an oversized air conditioner?",
+  "back": "It cools the air so quickly that it shuts off before removing enough moisture, leaving rooms cold, clammy and uneven.",
+  "domain": "systems",
+  "id": 320
+ },
+ {
+  "chapter": 21,
+  "front": "What does a heat pump do differently from a straight air conditioner?",
+  "back": "It can run the refrigeration cycle in both directions. In summer it moves heat out of the house, and in winter it pulls heat from outdoor air and delivers it indoors, using a reversing valve to switch.",
+  "domain": "systems",
+  "id": 321
+ },
+ {
+  "chapter": 21,
+  "front": "What is the formula for coefficient of performance (COP)?",
+  "back": "COP equals heat delivered divided by electrical energy input, with both in the same units. Convert kilowatts to BTU/hr using 1 kW = 3,412 BTU/hr. Resistance heat has a COP of exactly 1.0.",
+  "domain": "systems",
+  "id": 322
+ },
+ {
+  "chapter": 21,
+  "front": "A heat pump delivers 36,000 BTU/hr while drawing 3.2 kW. What is its COP?",
+  "back": "Input is 3.2 x 3,412 = 10,918 BTU/hr. COP is 36,000 / 10,918, which is about 3.3. That means every unit of electricity buys about 3.3 units of heat.",
+  "domain": "systems",
+  "id": 323
+ },
+ {
+  "chapter": 21,
+  "front": "Why are SEER2 and HSPF2 numbers lower than old SEER and HSPF for the same unit?",
+  "back": "The 2023 test procedure uses a higher external static pressure on the blower, which makes the equipment work harder. The new ratings are therefore not directly comparable to older numbers.",
+  "domain": "systems",
+  "id": 324
+ },
+ {
+  "chapter": 21,
+  "front": "In heating mode, which coil is the evaporator and which is the condenser?",
+  "back": "The outdoor coil becomes the evaporator and absorbs heat from the outdoor air. The indoor coil becomes the condenser and releases heat into the house air. The compressor stays the same.",
+  "domain": "systems",
+  "id": 325
+ },
+ {
+  "chapter": 21,
+  "front": "How are the four ports on a reversing valve arranged?",
+  "back": "One port on a single side is the compressor discharge. On the opposite side are three ports. The center one is the suction line to the compressor, and the two outer ones connect to the indoor and outdoor coils.",
+  "domain": "systems",
+  "id": 326
+ },
+ {
+  "chapter": 21,
+  "front": "What actually moves the slide inside a reversing valve?",
+  "back": "Refrigerant pressure moves it, steered by a small pilot solenoid valve. The pilot opens one end of the main body to suction, and the pressure difference pushes the piston toward the low-pressure end.",
+  "domain": "systems",
+  "id": 327
+ },
+ {
+  "chapter": 21,
+  "front": "Why will a reversing valve not shift when the compressor is off?",
+  "back": "The valve needs a pressure difference between discharge and suction to move its piston. With the compressor off, pressures equalize, so the slide stays where it is until the compressor starts.",
+  "domain": "systems",
+  "id": 328
+ },
+ {
+  "chapter": 21,
+  "front": "What do the O and B thermostat terminals mean on a heat pump?",
+  "back": "They energize the reversing valve. O energizes it in cooling, and B energizes it in heating. Which one applies depends on the manufacturer, so read the wiring diagram for the equipment.",
+  "domain": "systems",
+  "id": 329
+ },
+ {
+  "chapter": 21,
+  "front": "Why does a heat pump need a bi-flow filter drier?",
+  "back": "Liquid refrigerant flows through the liquid line in opposite directions in heating and cooling. A bi-flow drier has internal check valves so it works in both directions without releasing trapped debris.",
+  "domain": "systems",
+  "id": 330
+ },
+ {
+  "chapter": 21,
+  "front": "What does an accumulator do on a heat pump suction line?",
+  "back": "It catches liquid refrigerant that may flood back, especially during heating and after defrost, and meters it slowly to the compressor as vapor. This protects the compressor from liquid slugging.",
+  "domain": "systems",
+  "id": 331
+ },
+ {
+  "chapter": 21,
+  "front": "What happens to the reversing valve, outdoor fan and strips during defrost?",
+  "back": "The valve shifts to cooling so hot gas melts the outdoor coil. The outdoor fan stops so heat is not blown away, and the auxiliary strips come on to temper the indoor air.",
+  "domain": "systems",
+  "id": 332
+ },
+ {
+  "chapter": 21,
+  "front": "What is the balance point of a heat pump?",
+  "back": "It is the outdoor temperature at which the heat pump output equals the heat loss of the house. Below it, the heat pump cannot keep up alone and auxiliary heat must fill the gap.",
+  "domain": "systems",
+  "id": 333
+ },
+ {
+  "chapter": 21,
+  "front": "What is the difference between auxiliary heat and emergency heat?",
+  "back": "Auxiliary heat is the electric strips running along with the compressor to help in cold weather. Emergency heat is a manual setting that locks out the compressor and runs only the strips, at a COP of 1.0.",
+  "domain": "systems",
+  "id": 334
+ },
+ {
+  "chapter": 21,
+  "front": "How many amps does a 15 kW strip heater draw at 240 volts single-phase?",
+  "back": "Current equals power divided by voltage: 15,000 / 240 = 62.5 amps. Because that is large, strip sets are normally split across multiple branch circuits with separate breakers.",
+  "domain": "systems",
+  "id": 335
+ },
+ {
+  "chapter": 22,
+  "front": "About how much energy does a cubic foot of natural gas hold compared with propane?",
+  "back": "Natural gas holds about 1,000 BTU per cubic foot, and propane vapor holds about 2,500 BTU per cubic foot. Propane furnaces therefore use smaller orifices and a higher manifold pressure.",
+  "domain": "systems",
+  "id": 336
+ },
+ {
+  "chapter": 22,
+  "front": "What are typical manifold pressures for natural gas and propane furnaces?",
+  "back": "Natural gas is about 3.5 inches of water column, and propane is about 10 inches. The furnace rating plate always governs, since two-stage units run lower pressure on low fire.",
+  "domain": "systems",
+  "id": 337
+ },
+ {
+  "chapter": 22,
+  "front": "Why must a gas furnace never be converted from natural gas to propane without a kit?",
+  "back": "The kit changes the orifices and the gas valve spring so the burners get the right amount of fuel. Without it, combustion can be incomplete and produce carbon monoxide.",
+  "domain": "systems",
+  "id": 338
+ },
+ {
+  "chapter": 22,
+  "front": "List the main steps of a gas furnace start-up sequence in order.",
+  "back": "Inducer starts, pressure switch closes, igniter warms, gas valve opens, flame is proven, blower starts after a delay. After the call ends, the valve closes, and the inducer and blower run on briefly.",
+  "domain": "systems",
+  "id": 339
+ },
+ {
+  "chapter": 22,
+  "front": "What does the pressure switch in a gas furnace prove?",
+  "back": "It proves the inducer is creating enough suction, which shows the vent path is open. If the vent is blocked or the tube is split, the switch stays open and the sequence stops before ignition.",
+  "domain": "systems",
+  "id": 340
+ },
+ {
+  "chapter": 22,
+  "front": "What does a flame sensor measure and what is a typical reading?",
+  "back": "The flame carries a tiny rectified direct current, measured in microamps, between the sensor rod and the burner ground. A good reading is usually 2 to 6 microamps, and a dirty rod gives a weak signal.",
+  "domain": "systems",
+  "id": 341
+ },
+ {
+  "chapter": 22,
+  "front": "What is the usual cause of burners that light and shut off after a few seconds?",
+  "back": "A dirty flame sensor is the most common cause, followed by a poor ground or reversed polarity. Clean the rod lightly with a fine abrasive pad and recheck the microamp signal.",
+  "domain": "systems",
+  "id": 342
+ },
+ {
+  "chapter": 22,
+  "front": "What does a tripped rollout switch mean?",
+  "back": "It means flames or hot gases escaped the heat exchanger, often from a blocked heat exchanger, blocked vent or poor combustion air. Find and fix the cause. Never just reset it and leave.",
+  "domain": "systems",
+  "id": 343
+ },
+ {
+  "chapter": 22,
+  "front": "What does a high limit switch that keeps tripping usually point to?",
+  "back": "Low airflow across the heat exchanger, such as a dirty filter, closed registers, a failing blower or high static pressure. Measure static pressure and temperature rise before replacing any parts.",
+  "domain": "systems",
+  "id": 344
+ },
+ {
+  "chapter": 22,
+  "front": "Why can a 90 percent or higher AFUE furnace use plastic vent pipe?",
+  "back": "A second heat exchanger cools the exhaust below its dew point, so the gas leaves at low temperature and water vapor condenses. The cool exhaust allows PVC or CPVC, and a condensate drain is needed.",
+  "domain": "systems",
+  "id": 345
+ },
+ {
+  "chapter": 22,
+  "front": "How do you find furnace airflow from output and temperature rise?",
+  "back": "CFM equals output in BTU/hr divided by 1.08 times the temperature rise. For 64,000 BTU/hr output and a 45 degree F rise, CFM is 64,000 / 48.6, which is about 1,317.",
+  "domain": "systems",
+  "id": 346
+ },
+ {
+  "chapter": 22,
+  "front": "How do you clock a gas meter to check furnace input?",
+  "back": "With other gas appliances off, time one revolution of the one-cubic-foot dial. Cubic feet per hour equals 3,600 divided by the seconds, and multiplying by the heating value gives BTU/hr.",
+  "domain": "systems",
+  "id": 347
+ },
+ {
+  "chapter": 22,
+  "front": "An 80,000 BTU/hr input, 80 percent AFUE furnace produces how much heat output?",
+  "back": "Output equals input times AFUE: 80,000 x 0.80 = 64,000 BTU/hr. The remaining 16,000 BTU/hr leaves with the exhaust gases.",
+  "domain": "systems",
+  "id": 348
+ },
+ {
+  "chapter": 22,
+  "front": "How much heat does a 10 kW electric heater make, and what current does it draw at 240 volts?",
+  "back": "It makes 10 x 3,412 = 34,120 BTU/hr and draws 10,000 / 240 = 41.7 amps. With the 125 percent continuous-load rule, 52 amps calls for a 60 amp breaker.",
+  "domain": "systems",
+  "id": 349
+ },
+ {
+  "chapter": 22,
+  "front": "How does the output of an electric resistance heater change with supply voltage?",
+  "back": "Power varies with the square of voltage. A 10 kW heater at 240 volts produces only about 7.5 kW if supplied with 208 volts, because 10 x (208 / 240) squared is about 7.51.",
+  "domain": "systems",
+  "id": 350
+ },
+ {
+  "chapter": 23,
+  "front": "Why do variable capacity systems control humidity better than single-speed ones?",
+  "back": "They run for long periods at low speed, so the coil stays cold and wet and removes moisture steadily. Single-speed systems cycle off before much moisture is removed.",
+  "domain": "systems",
+  "id": 351
+ },
+ {
+  "chapter": 23,
+  "front": "What is the capacity of a one-ton mini-split in BTU/hr?",
+  "back": "One ton equals 12,000 BTU/hr. Common mini-split sizes are 9,000, 12,000, 18,000, 24,000 and 36,000 BTU/hr, so a 12,000 BTU/hr unit is a one-ton unit.",
+  "domain": "systems",
+  "id": 352
+ },
+ {
+  "chapter": 23,
+  "front": "What are the main parts of a ductless mini-split?",
+  "back": "An outdoor unit with compressor, coil and fan, one or more indoor heads, a small refrigerant line set, a power and communication cable, and a condensate drain. There is no duct work.",
+  "domain": "systems",
+  "id": 353
+ },
+ {
+  "chapter": 23,
+  "front": "What does an inverter do in a mini-split?",
+  "back": "It converts incoming AC to DC, smooths it, and rebuilds AC at an adjustable frequency using fast-switching transistors. Changing frequency changes compressor motor speed and therefore capacity.",
+  "domain": "systems",
+  "id": 354
+ },
+ {
+  "chapter": 23,
+  "front": "How do you calculate the speed of a two-pole AC motor from frequency?",
+  "back": "Speed in rpm equals 120 x frequency divided by the number of poles. At 60 hertz a two-pole motor turns 3,600 rpm, and at 30 hertz it turns 1,800 rpm.",
+  "domain": "systems",
+  "id": 355
+ },
+ {
+  "chapter": 23,
+  "front": "What do the fan affinity laws say about power and speed?",
+  "back": "Airflow changes in direct proportion to speed, but power changes with the cube of speed. At half speed, a fan moves half the air and uses only one eighth of the power.",
+  "domain": "systems",
+  "id": 356
+ },
+ {
+  "chapter": 23,
+  "front": "A blower uses 600 watts at 1,200 CFM. What does it use at 800 CFM?",
+  "back": "Power is 600 x (800 / 1,200) cubed, which is 600 x 0.296, or about 178 watts. Slowing a fan by one third cuts power by more than 70 percent.",
+  "domain": "systems",
+  "id": 357
+ },
+ {
+  "chapter": 23,
+  "front": "What is an electronic expansion valve (EEV)?",
+  "back": "A metering valve whose needle is moved in small steps by a stepper motor under the control of the circuit board. Sensor readings let the board hold a target superheat as load and speed change.",
+  "domain": "systems",
+  "id": 358
+ },
+ {
+  "chapter": 23,
+  "front": "What is an NTC thermistor and what does a failed one read?",
+  "back": "A temperature sensor whose resistance falls as temperature rises. A typical 10 kilohm part reads about 10,000 ohms at 77 degrees F. An open or shorted reading means the sensor has failed and may trigger an error code.",
+  "domain": "systems",
+  "id": 359
+ },
+ {
+  "chapter": 23,
+  "front": "How tight should a flare connection be and what goes on the flare face?",
+  "back": "Use the torque value in the installation manual, for example about 10 to 13 foot-pounds on a 1/4 inch line. Put a drop of refrigerant oil on the flare face and never use thread sealant.",
+  "domain": "systems",
+  "id": 360
+ },
+ {
+  "chapter": 23,
+  "front": "How low should you evacuate a mini-split line set and indoor coil?",
+  "back": "Pull a deep vacuum to 500 microns or lower and watch the micron gauge for a stable hold. Moisture can damage an inverter compressor and clog an electronic expansion valve.",
+  "domain": "systems",
+  "id": 361
+ },
+ {
+  "chapter": 23,
+  "front": "A mini-split's factory charge covers 25 feet. The line is 50 feet at 0.2 ounce per foot. How much do you add?",
+  "back": "Only the extra length needs charge: (50 - 25) x 0.2 = 5 ounces. The rate of 0.2 is an example, and the installation manual gives the real value for each model.",
+  "domain": "systems",
+  "id": 362
+ },
+ {
+  "chapter": 23,
+  "front": "What is an ECM blower motor?",
+  "back": "An electronically commutated motor is a brushless permanent magnet DC motor with a built-in control module. It is more efficient than a permanent split capacitor motor and does not use a run capacitor.",
+  "domain": "systems",
+  "id": 363
+ },
+ {
+  "chapter": 23,
+  "front": "Why must you wait before touching an inverter board after power is off?",
+  "back": "Its capacitors hold a dangerous charge for several minutes. Wait the labeled time, then measure the DC bus voltage with a meter and confirm it is below about 50 volts before reaching in.",
+  "domain": "systems",
+  "id": 364
+ },
+ {
+  "chapter": 23,
+  "front": "Why should you not chase suction pressure when charging an inverter system?",
+  "back": "Compressor speed and the electronic expansion valve change constantly, so fixed-system targets do not apply. Charge by weight with the line length adjustment and verify with the manufacturer's method.",
+  "domain": "systems",
+  "id": 365
+ },
+ {
+  "chapter": 24,
+  "front": "What are the three temperature ranges of refrigeration applications?",
+  "back": "High temperature has evaporators near 40 degrees F or above, medium temperature holds boxes at about 33 to 41 degrees F, and low temperature holds frozen food at about 0 to minus 10 degrees F.",
+  "domain": "commercial",
+  "id": 366
+ },
+ {
+  "chapter": 24,
+  "front": "What is the cold-holding limit for potentially hazardous food?",
+  "back": "The US food code sets it at 41 degrees F or below. Frozen food is held at 0 degrees F or lower for quality and safety.",
+  "domain": "commercial",
+  "id": 367
+ },
+ {
+  "chapter": 24,
+  "front": "What are walk-in cooler panels made of and what R-value do they have?",
+  "back": "They have a foam core, usually polyurethane, between metal skins, typically 4 inches thick for coolers. A good panel is around R-28 to R-32.",
+  "domain": "commercial",
+  "id": 368
+ },
+ {
+  "chapter": 24,
+  "front": "Why do walk-in freezers have a heated pressure relief port?",
+  "back": "When the door closes, trapped warm air cools and shrinks, creating a vacuum that makes the door hard to open. The port lets air move, and its heater keeps frost from sealing it.",
+  "domain": "commercial",
+  "id": 369
+ },
+ {
+  "chapter": 24,
+  "front": "How do you calculate wall heat gain through insulated panels?",
+  "back": "Q equals U x A x temperature difference, where U is 1 divided by the R-value and A is surface area in square feet. For 520 square feet of R-28 and a 54 degree F difference, Q is about 1,003 BTU/hr.",
+  "domain": "commercial",
+  "id": 370
+ },
+ {
+  "chapter": 24,
+  "front": "How much heat must be removed to cool 500 pounds of food from 70 to 38 degrees F at a specific heat of 0.8?",
+  "back": "Sensible heat equals weight x specific heat x temperature change: 500 x 0.8 x 32 = 12,800 BTU. Freezing the food would add much more latent heat.",
+  "domain": "commercial",
+  "id": 371
+ },
+ {
+  "chapter": 24,
+  "front": "What is TD in a walk-in and how does it affect humidity?",
+  "back": "TD is the box temperature minus the evaporator coil temperature. A small TD of about 8 to 10 degrees F keeps humidity high near 85 percent, and a large TD dries the air and can dehydrate product.",
+  "domain": "commercial",
+  "id": 372
+ },
+ {
+  "chapter": 24,
+  "front": "How do you find the sensible capacity of an evaporator from airflow?",
+  "back": "Q equals 1.08 x CFM x air temperature drop across the coil. At 2,000 CFM and an 8 degree F drop, capacity is 17,280 BTU/hr.",
+  "domain": "commercial",
+  "id": 373
+ },
+ {
+  "chapter": 24,
+  "front": "What are the three main defrost methods?",
+  "back": "Off-cycle defrost uses warm box air while the compressor is off, electric defrost uses heater rods in the coil, and hot gas defrost routes compressor discharge gas through the coil to melt frost from inside.",
+  "domain": "commercial",
+  "id": 374
+ },
+ {
+  "chapter": 24,
+  "front": "What are the current and resistance of a 1,000 watt, 240 volt defrost heater?",
+  "back": "Current is 1,000 / 240 = 4.17 amps, and resistance is 240 squared / 1,000 = 57.6 ohms. A heater reading open, or very low resistance to ground, has failed.",
+  "domain": "commercial",
+  "id": 375
+ },
+ {
+  "chapter": 24,
+  "front": "What ends an electric defrost cycle?",
+  "back": "A termination thermostat or sensor ends it when the coil reaches about 50 to 55 degrees F. A fail-safe timer, often 30 to 45 minutes, stops the cycle if the sensor fails.",
+  "domain": "commercial",
+  "id": 376
+ },
+ {
+  "chapter": 24,
+  "front": "Why is there a fan delay after defrost in a freezer?",
+  "back": "It holds the evaporator fans off briefly so water left on the coil refreezes instead of being blown into the box and onto product.",
+  "domain": "commercial",
+  "id": 377
+ },
+ {
+  "chapter": 24,
+  "front": "What is the purpose of pump-down with a liquid line solenoid?",
+  "back": "When the box thermostat is satisfied, the solenoid closes and the compressor pulls refrigerant out of the evaporator until a low pressure control stops it. The next start avoids flooding the compressor with liquid.",
+  "domain": "commercial",
+  "id": 378
+ },
+ {
+  "chapter": 24,
+  "front": "Why do air-cooled condensers need head pressure control at low ambient temperature?",
+  "back": "Falling condensing pressure reduces the pressure difference across the expansion valve, starving the evaporator. Fan cycling, variable speed fans or a flooded condenser design hold the pressure up.",
+  "domain": "commercial",
+  "id": 379
+ },
+ {
+  "chapter": 24,
+  "front": "What is the most common cause of high head pressure in restaurants and stores?",
+  "back": "A dirty condenser coil clogged with grease, lint, leaves or cottonwood fluff. Clean it before checking anything else, using a brush or low-pressure water, and never a blade that bends the fins.",
+  "domain": "commercial",
+  "id": 380
+ },
+ {
+  "chapter": 25,
+  "front": "How much heat must be removed to make 1 lb of ice from 70 degree F water?",
+  "back": "Cooling from 70 to 32 degrees F removes 38 BTU, and freezing removes 144 BTU of latent heat of fusion. The total is 182 BTU per pound of ice.",
+  "domain": "commercial",
+  "id": 381
+ },
+ {
+  "chapter": 25,
+  "front": "What is the latent heat of fusion of water?",
+  "back": "It is 144 BTU per pound, the heat removed to turn water at 32 degrees F into ice at 32 degrees F with no change in temperature.",
+  "domain": "commercial",
+  "id": 382
+ },
+ {
+  "chapter": 25,
+  "front": "What happens during the harvest cycle of a cube ice machine?",
+  "back": "A hot gas valve sends discharge vapor through the evaporator. The warmth melts the thin ice layer touching the metal, so the cubes slide into the bin.",
+  "domain": "commercial",
+  "id": 383
+ },
+ {
+  "chapter": 25,
+  "front": "About how long should a normal harvest cycle last?",
+  "back": "Typically 2 to 4 minutes. A harvest longer than about 5 minutes points to low charge, a leaking hot gas valve or a failed valve coil.",
+  "domain": "commercial",
+  "id": 384
+ },
+ {
+  "chapter": 25,
+  "front": "Why is a flake or nugget machine called continuous?",
+  "back": "Ice is scraped off the evaporator wall by a turning auger as it forms, so the machine never stops to harvest like a batch cube machine.",
+  "domain": "commercial",
+  "id": 385
+ },
+ {
+  "chapter": 25,
+  "front": "What does the water curtain on a cube machine do?",
+  "back": "It keeps water from splashing into the bin and acts as a safety switch. If it does not open as ice falls, the controller sees a harvest fault.",
+  "domain": "commercial",
+  "id": 386
+ },
+ {
+  "chapter": 25,
+  "front": "What is the difference between descaling and sanitizing an ice machine?",
+  "back": "Descaling dissolves mineral scale using an approved acid cleaner. Sanitizing kills microorganisms using a food-contact sanitizer. They are separate steps and need a thorough rinse between.",
+  "domain": "commercial",
+  "id": 387
+ },
+ {
+  "chapter": 25,
+  "front": "Why must bleach never be mixed with an acid ice machine cleaner?",
+  "back": "The mixture can release chlorine gas, which is a poisonous hazard. Use only the approved products, one at a time, and rinse the system well.",
+  "domain": "commercial",
+  "id": 388
+ },
+ {
+  "chapter": 25,
+  "front": "Why does a dirty condenser cut ice production?",
+  "back": "It raises condensing temperature and head pressure, so the compressor works harder and moves less heat. Output falls and the compressor may overheat.",
+  "domain": "commercial",
+  "id": 389
+ },
+ {
+  "chapter": 25,
+  "front": "What are the two main temperature classes of display cases?",
+  "back": "Medium temperature cases hold fresh food at about 33 to 41 degrees F. Low temperature cases hold frozen food with discharge air near minus 10 to 0 degrees F.",
+  "domain": "commercial",
+  "id": 390
+ },
+ {
+  "chapter": 25,
+  "front": "What is the largest heat load on an open display case?",
+  "back": "Infiltration of warm, humid room air through the opening. It is usually well over half of the total load, so a damaged air curtain raises case temperature quickly.",
+  "domain": "commercial",
+  "id": 391
+ },
+ {
+  "chapter": 25,
+  "front": "Name three things that can disturb a case air curtain.",
+  "back": "Blocked discharge or return grilles, product stacked above the load line, and a fan or ceiling diffuser blowing across the front of the case.",
+  "domain": "commercial",
+  "id": 392
+ },
+ {
+  "chapter": 25,
+  "front": "Why can off-cycle defrost not be used in a freezer?",
+  "back": "It relies on box air above 32 degrees F to melt the frost. A freezer is always colder than that, so it needs electric or hot gas heat.",
+  "domain": "commercial",
+  "id": 393
+ },
+ {
+  "chapter": 25,
+  "front": "What ends a defrost cycle, and what is the fail-safe?",
+  "back": "A coil temperature sensor reaching its set point, commonly 45 to 60 degrees F, ends defrost. A fail-safe timer ends it anyway if the sensor fails.",
+  "domain": "commercial",
+  "id": 394
+ },
+ {
+  "chapter": 25,
+  "front": "What does an anti-sweat heater do?",
+  "back": "It keeps door frames and glass above the dew point of the store air so that fog and water do not form on the case door.",
+  "domain": "commercial",
+  "id": 395
+ },
+ {
+  "chapter": 26,
+  "front": "What is the formula for heat moved by a water loop?",
+  "back": "Q in BTU per hour equals 500 times GPM times delta T in degrees F. The 500 comes from 8.34 pounds per gallon times 60 minutes.",
+  "domain": "commercial",
+  "id": 396
+ },
+ {
+  "chapter": 26,
+  "front": "How many GPM per ton does a 10 degree F chilled water delta T require?",
+  "back": "12,000 divided by (500 x 10) equals 2.4 GPM per ton. A smaller delta T needs more flow per ton and more pump energy.",
+  "domain": "commercial",
+  "id": 397
+ },
+ {
+  "chapter": 26,
+  "front": "How much heat does a water-cooled condenser reject per ton?",
+  "back": "About 15,000 BTU/hr, which is 12,000 from the building plus roughly 3,000 from compressor work. At a 10 degree F range this is 3.0 GPM per ton.",
+  "domain": "commercial",
+  "id": 398
+ },
+ {
+  "chapter": 26,
+  "front": "Which chiller compressor type is common above about 150 tons?",
+  "back": "The centrifugal compressor, which spins an impeller to raise vapor pressure. Capacity is controlled with inlet guide vanes or a variable speed drive.",
+  "domain": "commercial",
+  "id": 399
+ },
+ {
+  "chapter": 26,
+  "front": "How does an absorption chiller differ from a compressor chiller?",
+  "back": "It uses heat from steam, hot water or gas, with an absorbent such as lithium bromide and water refrigerant under vacuum, instead of a mechanical compressor.",
+  "domain": "commercial",
+  "id": 400
+ },
+ {
+  "chapter": 26,
+  "front": "Why does a low pressure chiller need a purge unit?",
+  "back": "The shell operates below atmospheric pressure, so leaks pull in air and moisture. The purge removes those non-condensables.",
+  "domain": "commercial",
+  "id": 401
+ },
+ {
+  "chapter": 26,
+  "front": "Which EPA certification covers low pressure chillers such as those using R-123?",
+  "back": "Type III certification covers low-pressure appliances such as R-123 chillers, and Universal certification covers all equipment types, so either one qualifies a technician to service them.",
+  "domain": "commercial",
+  "id": 402
+ },
+ {
+  "chapter": 26,
+  "front": "How is evaporator approach calculated?",
+  "back": "Leaving chilled water temperature minus the refrigerant saturation temperature in the evaporator. For example, 44 degrees F water and 38 degrees F refrigerant gives a 6 degree F approach.",
+  "domain": "commercial",
+  "id": 403
+ },
+ {
+  "chapter": 26,
+  "front": "How is condenser approach calculated, and what is normal?",
+  "back": "Condensing temperature minus leaving condenser water temperature. A clean condenser usually runs about 2 to 5 degrees F, and a high value suggests fouled tubes or non-condensables.",
+  "domain": "commercial",
+  "id": 404
+ },
+ {
+  "chapter": 26,
+  "front": "How do you convert kW per ton to EER?",
+  "back": "EER equals 12 divided by kW per ton. For 0.60 kW/ton the EER is 20, and COP is EER divided by 3.412.",
+  "domain": "commercial",
+  "id": 405
+ },
+ {
+  "chapter": 26,
+  "front": "What does IPLV describe?",
+  "back": "A weighted efficiency at 100, 75, 50 and 25 percent load, because chillers seldom run at full load. It rewards good part load performance.",
+  "domain": "commercial",
+  "id": 406
+ },
+ {
+  "chapter": 26,
+  "front": "What limits how cold a cooling tower can make the water?",
+  "back": "The outdoor wet bulb temperature, not the dry bulb. Tower approach is leaving water temperature minus wet bulb.",
+  "domain": "commercial",
+  "id": 407
+ },
+ {
+  "chapter": 26,
+  "front": "How much water does a cooling tower evaporate?",
+  "back": "About 1 percent of the circulating flow for every 10 degrees F of range. A 300 GPM tower with a 10 degree F range evaporates about 3 GPM.",
+  "domain": "commercial",
+  "id": 408
+ },
+ {
+  "chapter": 26,
+  "front": "How is tower blowdown calculated?",
+  "back": "Blowdown equals evaporation divided by (cycles of concentration minus 1). At 3 GPM evaporation and 4 cycles, blowdown is 1 GPM.",
+  "domain": "commercial",
+  "id": 409
+ },
+ {
+  "chapter": 26,
+  "front": "Why does a chiller need a flow switch?",
+  "back": "It proves water is moving through the evaporator before the compressor starts, which prevents the water from freezing in the tubes and splitting them.",
+  "domain": "commercial",
+  "id": 410
+ },
+ {
+  "chapter": 27,
+  "front": "What is a load calculation?",
+  "back": "A calculation of the BTU per hour a building gains in summer or loses in winter, used to size heating and cooling equipment to the real building.",
+  "domain": "design",
+  "id": 411
+ },
+ {
+  "chapter": 27,
+  "front": "What problems does an oversized air conditioner cause?",
+  "back": "It short cycles, so the coil runs too briefly to remove much moisture. The house feels cool but humid, and starts wear the compressor and contactor.",
+  "domain": "design",
+  "id": 412
+ },
+ {
+  "chapter": 27,
+  "front": "What is the conduction heat transfer equation?",
+  "back": "Q equals U times A times delta T, in BTU per hour. U is the U-factor, which equals 1 divided by the R-value.",
+  "domain": "design",
+  "id": 413
+ },
+ {
+  "chapter": 27,
+  "front": "What is the heat gain through 400 square feet of R-13 wall at a 20 degree F difference?",
+  "back": "U equals 1/13 = 0.0769, so Q = 0.0769 x 400 x 20, which is about 615 BTU per hour.",
+  "domain": "design",
+  "id": 414
+ },
+ {
+  "chapter": 27,
+  "front": "What is the solar heat gain coefficient?",
+  "back": "The fraction of the sun's heat that passes through a window. An SHGC of 0.25 lets 25 percent of the solar heat into the building.",
+  "domain": "design",
+  "id": 415
+ },
+ {
+  "chapter": 27,
+  "front": "How do you calculate solar gain through glass?",
+  "back": "Multiply glass area by the SHGC by the solar intensity for that orientation and time of day, with intensity in BTU/hr per square foot.",
+  "domain": "design",
+  "id": 416
+ },
+ {
+  "chapter": 27,
+  "front": "Which window orientation usually loads a house the most in the afternoon?",
+  "back": "West-facing glass, because the sun is low and strong when outdoor air is already at its hottest.",
+  "domain": "design",
+  "id": 417
+ },
+ {
+  "chapter": 27,
+  "front": "What is the formula for the sensible load of an airflow?",
+  "back": "Q equals 1.08 times CFM times delta T. The 1.08 equals 0.075 lb/cu ft x 0.24 BTU/lb-degree F x 60 minutes.",
+  "domain": "design",
+  "id": 418
+ },
+ {
+  "chapter": 27,
+  "front": "What is the formula for the latent load of an airflow?",
+  "back": "Q equals 0.68 times CFM times delta W, where delta W is the moisture difference in grains per pound of dry air.",
+  "domain": "design",
+  "id": 419
+ },
+ {
+  "chapter": 27,
+  "front": "How do you convert CFM of infiltration from air changes per hour?",
+  "back": "Multiply the house volume by ACH to get cubic feet per hour, then divide by 60. A 20,000 cubic foot house at 0.5 ACH leaks 166.7 CFM.",
+  "domain": "design",
+  "id": 420
+ },
+ {
+  "chapter": 27,
+  "front": "How much heat does one watt of electrical load add to a space?",
+  "back": "3.412 BTU per hour. A 1,200 watt allowance for appliances adds about 4,094 BTU per hour.",
+  "domain": "design",
+  "id": 421
+ },
+ {
+  "chapter": 27,
+  "front": "What is the sensible heat ratio?",
+  "back": "The sensible load divided by the total load. A house with 16,961 BTU/hr sensible and 22,294 BTU/hr total has an SHR of 0.76.",
+  "domain": "design",
+  "id": 422
+ },
+ {
+  "chapter": 27,
+  "front": "What do ACCA Manual J, Manual S and Manual D cover?",
+  "back": "Manual J calculates the load, Manual S selects equipment to match it, and Manual D designs the duct system.",
+  "domain": "design",
+  "id": 423
+ },
+ {
+  "chapter": 27,
+  "front": "How is a furnace's heat output found?",
+  "back": "Multiply input by AFUE. An 80,000 BTU/hr input furnace at 80 percent AFUE delivers 64,000 BTU/hr to the air.",
+  "domain": "design",
+  "id": 424
+ },
+ {
+  "chapter": 27,
+  "front": "Why is a rule of one ton per 500 square feet unreliable?",
+  "back": "Two houses of equal area can differ greatly in insulation, windows, leakage and climate. Use the rule only as a rough check, never to choose a unit.",
+  "domain": "design",
+  "id": 425
+ },
+ {
+  "chapter": 28,
+  "front": "What are the four main tools for controlling indoor air quality?",
+  "back": "Source control, ventilation, filtration and air cleaning, and humidity control. Source control is usually the cheapest and most effective.",
+  "domain": "air_quality",
+  "id": 426
+ },
+ {
+  "chapter": 28,
+  "front": "What is the ASHRAE 62.2 whole-house ventilation formula?",
+  "back": "Q in CFM equals 0.03 times floor area plus 7.5 times (bedrooms + 1). A 2,000 square foot, 3-bedroom house needs 90 CFM.",
+  "domain": "air_quality",
+  "id": 427
+ },
+ {
+  "chapter": 28,
+  "front": "What is the ASHRAE 62.1 breathing zone formula?",
+  "back": "Vbz equals Rp times people plus Ra times floor area. For an office, Rp is 5 CFM per person and Ra is 0.06 CFM per square foot.",
+  "domain": "air_quality",
+  "id": 428
+ },
+ {
+  "chapter": 28,
+  "front": "What is a main risk of an exhaust-only ventilation system?",
+  "back": "It makes the building slightly negative, which can pull air from a crawl space or garage and cause backdrafting of atmospheric combustion appliances.",
+  "domain": "air_quality",
+  "id": 429
+ },
+ {
+  "chapter": 28,
+  "front": "Why is indoor carbon dioxide measured?",
+  "back": "It is an indicator of ventilation, not the main hazard. Outdoor air per person is about 10,000 divided by the indoor ppm minus the outdoor ppm.",
+  "domain": "air_quality",
+  "id": 430
+ },
+ {
+  "chapter": 28,
+  "front": "What outdoor air per person does 1,000 ppm indoor CO2 suggest?",
+  "back": "With about 420 ppm outdoors, the difference is 580 ppm, so ventilation is roughly 10,000 / 580 = 17 CFM per person.",
+  "domain": "air_quality",
+  "id": 431
+ },
+ {
+  "chapter": 28,
+  "front": "What does the MERV rating describe?",
+  "back": "The minimum efficiency reporting value, from 1 to 20, which states how small a particle a filter captures. Higher numbers capture finer particles.",
+  "domain": "air_quality",
+  "id": 432
+ },
+ {
+  "chapter": 28,
+  "front": "What is the efficiency of a HEPA filter?",
+  "back": "At least 99.97 percent of particles at 0.3 microns. HEPA filters are used in cleanrooms and portable room cleaners.",
+  "domain": "air_quality",
+  "id": 433
+ },
+ {
+  "chapter": 28,
+  "front": "Why can a high MERV filter harm an HVAC system?",
+  "back": "It raises pressure drop and may cut airflow, which can freeze a coil in cooling or overheat a furnace. Check static pressure and consider a deeper filter.",
+  "domain": "air_quality",
+  "id": 434
+ },
+ {
+  "chapter": 28,
+  "front": "What is dew point?",
+  "back": "The temperature at which air becomes saturated and water starts to condense. Any surface colder than the dew point collects moisture.",
+  "domain": "air_quality",
+  "id": 435
+ },
+ {
+  "chapter": 28,
+  "front": "What relative humidity range limits mold and dust mites?",
+  "back": "The EPA suggests 30 to 50 percent. Mold can grow on damp surfaces above about 60 percent, and dust mites thrive above about 50 percent.",
+  "domain": "air_quality",
+  "id": 436
+ },
+ {
+  "chapter": 28,
+  "front": "How does an ERV differ from an HRV?",
+  "back": "An HRV transfers only sensible heat between air streams. An ERV also transfers moisture, which lowers the latent load of humid outdoor air.",
+  "domain": "air_quality",
+  "id": 437
+ },
+ {
+  "chapter": 28,
+  "front": "How do you find the sensible savings of a heat recovery core?",
+  "back": "Supply temperature equals outdoor minus effectiveness times the temperature difference. Then use 1.08 x CFM x the temperature improvement.",
+  "domain": "air_quality",
+  "id": 438
+ },
+ {
+  "chapter": 28,
+  "front": "What carbon monoxide level triggers investigation near an appliance?",
+  "back": "Readings above 9 ppm, which is the EPA 8-hour outdoor standard. Find the cause, such as a cracked heat exchanger or blocked flue, and correct it.",
+  "domain": "air_quality",
+  "id": 439
+ },
+ {
+  "chapter": 28,
+  "front": "What is the EPA radon action level?",
+  "back": "The EPA action level is 4 picocuries per liter. At or above that level, mitigation such as a sub-slab depressurization system with a vented fan is recommended for the building.",
+  "domain": "air_quality",
+  "id": 440
+ },
+ {
+  "chapter": 29,
+  "front": "What is superheat?",
+  "back": "Superheat is how many degrees F the refrigerant vapor is warmer than its saturation temperature at the same pressure. It proves the vapor reaching the compressor has no liquid mixed in.",
+  "domain": "diagnostics",
+  "id": 441
+ },
+ {
+  "chapter": 29,
+  "front": "What is the formula for superheat?",
+  "back": "Superheat equals the suction line temperature minus the saturation temperature at suction pressure. For example, 60 degrees F line temperature minus 50 degrees F saturation gives 10 degrees F.",
+  "domain": "diagnostics",
+  "id": 442
+ },
+ {
+  "chapter": 29,
+  "front": "What is subcooling?",
+  "back": "Subcooling is how many degrees F the liquid refrigerant is cooler than its saturation temperature at the high-side pressure. It shows that the liquid line is full of solid liquid, not bubbles.",
+  "domain": "diagnostics",
+  "id": 443
+ },
+ {
+  "chapter": 29,
+  "front": "What is the formula for subcooling?",
+  "back": "Subcooling equals the saturation temperature at liquid line pressure minus the liquid line temperature. On R-410A, 365 psig is 110 degrees F, so a 100 degree F liquid line gives 10 degrees F.",
+  "domain": "diagnostics",
+  "id": 444
+ },
+ {
+  "chapter": 29,
+  "front": "Why must the technician read the PT chart column for the right refrigerant?",
+  "back": "Each refrigerant has very different pressures at the same temperature. At 50 degrees F, R-410A is about 142 psig and R-22 about 84 psig, so a wrong column gives a wrong saturation temperature.",
+  "domain": "diagnostics",
+  "id": 445
+ },
+ {
+  "chapter": 29,
+  "front": "Which charging target is normally used for a fixed orifice system?",
+  "back": "A fixed orifice system is checked by target superheat. The manufacturer's chart gives the number using indoor wet bulb and outdoor dry bulb temperatures, usually with a tolerance near plus or minus 3 degrees F.",
+  "domain": "diagnostics",
+  "id": 446
+ },
+ {
+  "chapter": 29,
+  "front": "Which charging target is normally used for a TXV system?",
+  "back": "A TXV system is normally charged to a target subcooling, commonly about 8 to 12 degrees F, because the valve holds superheat nearly constant on its own.",
+  "domain": "diagnostics",
+  "id": 447
+ },
+ {
+  "chapter": 29,
+  "front": "What superheat does a TXV usually hold?",
+  "back": "A TXV usually holds superheat somewhere between about 8 and 12 degrees F, by opening and closing in response to the temperature at its sensing bulb on the suction line.",
+  "domain": "diagnostics",
+  "id": 448
+ },
+ {
+  "chapter": 29,
+  "front": "What pattern of readings suggests a low charge?",
+  "back": "A low charge shows low suction and head pressure, high superheat and low subcooling. Little liquid reaches the metering device, so the evaporator is starved and the condenser holds little liquid.",
+  "domain": "diagnostics",
+  "id": 449
+ },
+ {
+  "chapter": 29,
+  "front": "What pattern of readings suggests an overcharge?",
+  "back": "An overcharge shows high suction and head pressure, low superheat, high subcooling and high compressor amps. Extra liquid backs up in the condenser and the coil is fed too freely.",
+  "domain": "diagnostics",
+  "id": 450
+ },
+ {
+  "chapter": 29,
+  "front": "What readings point to a weak compressor with leaking valves?",
+  "back": "High suction pressure, low head pressure, and low superheat and subcooling. Discharge vapor leaks back to the low side, so the compressor cannot build a normal pressure difference.",
+  "domain": "diagnostics",
+  "id": 451
+ },
+ {
+  "chapter": 29,
+  "front": "What is the formula for sensible heat in BTU per hour from airflow?",
+  "back": "Sensible BTU per hour equals 1.08 times CFM times delta T. For 1,200 CFM and a 19 degree F delta T, that is 1.08 x 1,200 x 19, or 24,624 BTU per hour.",
+  "domain": "diagnostics",
+  "id": 452
+ },
+ {
+  "chapter": 29,
+  "front": "What is the condenser temperature difference?",
+  "back": "It is the condensing temperature, read from head pressure on the PT chart, minus the outdoor air temperature entering the condenser. On R-410A, 365 psig is 110 degrees F, so with 95 degree F air it is 15 degrees F.",
+  "domain": "diagnostics",
+  "id": 453
+ },
+ {
+  "chapter": 29,
+  "front": "Why should airflow be fixed before the charge is adjusted?",
+  "back": "Low airflow from a dirty filter or blower changes pressures, superheat and delta T. Charging in that state leaves the system overcharged once airflow is restored, so correct airflow first.",
+  "domain": "diagnostics",
+  "id": 454
+ },
+ {
+  "chapter": 29,
+  "front": "Why is weigh-in charging used in very cold weather?",
+  "back": "In very cold weather the condenser cannot hold normal pressure, which makes superheat and subcooling readings misleading. Weighing in the nameplate charge by mass does not depend on outdoor conditions.",
+  "domain": "diagnostics",
+  "id": 455
+ },
+ {
+  "chapter": 30,
+  "front": "What does the blue low-side gauge on a manifold read?",
+  "back": "The blue low-side gauge is a compound gauge. It reads positive pressure in psig and also vacuum in inches of mercury, so it can show pressures below the atmosphere.",
+  "domain": "diagnostics",
+  "id": 456
+ },
+ {
+  "chapter": 30,
+  "front": "What is the difference between psig and psia?",
+  "back": "Psig is pressure above the atmosphere, read from a gauge that reads zero when open to air. Psia is absolute pressure and adds about 14.7 psi, so 142 psig equals 156.7 psia.",
+  "domain": "diagnostics",
+  "id": 457
+ },
+ {
+  "chapter": 30,
+  "front": "How can you check a service thermometer for accuracy?",
+  "back": "Place the probe in a stirred glass of crushed ice and water. It should read about 32 degrees F. A reading of 35 degrees F means a 3 degree error that must be corrected or the thermometer replaced.",
+  "domain": "diagnostics",
+  "id": 458
+ },
+ {
+  "chapter": 30,
+  "front": "Why is an infrared thermometer unreliable on bare copper pipe?",
+  "back": "Shiny copper has low emissivity, so it reflects heat from its surroundings instead of radiating its own. Covering a small spot with flat paint or tape gives a more accurate infrared reading.",
+  "domain": "diagnostics",
+  "id": 459
+ },
+ {
+  "chapter": 30,
+  "front": "Why must a clamp meter surround only one conductor?",
+  "back": "Current flows in opposite directions in the two conductors of a circuit, so their magnetic fields cancel inside the jaws. Clamping both shows almost zero, while one wire shows the true current.",
+  "domain": "diagnostics",
+  "id": 460
+ },
+ {
+  "chapter": 30,
+  "front": "Why use a true RMS meter on variable speed equipment?",
+  "back": "Variable speed drives and electronically commutated motors create distorted waveforms. A true RMS meter calculates the correct effective value, while an average-reading meter can be off by 10 percent or more.",
+  "domain": "diagnostics",
+  "id": 461
+ },
+ {
+  "chapter": 30,
+  "front": "What is a manometer used for in HVACR service?",
+  "back": "A manometer measures air pressure in inches of water column. It is used to find total external static pressure, which is typically near 0.5 inches w.c. on a residential blower system.",
+  "domain": "diagnostics",
+  "id": 462
+ },
+ {
+  "chapter": 30,
+  "front": "What is the formula for airflow from air speed and area?",
+  "back": "CFM equals velocity in feet per minute times area in square feet. A grille of 3.33 square feet with an average speed of 300 fpm moves about 1,000 CFM.",
+  "domain": "diagnostics",
+  "id": 463
+ },
+ {
+  "chapter": 30,
+  "front": "What does a micron gauge measure?",
+  "back": "A micron gauge measures deep vacuum as absolute pressure in microns. A compound gauge cannot show this range. Many procedures call for 500 microns or lower before the system is charged.",
+  "domain": "diagnostics",
+  "id": 464
+ },
+ {
+  "chapter": 30,
+  "front": "What does a vacuum decay test show?",
+  "back": "After valving off the pump, watch the micron gauge. A rise that levels off near 1,000 to 2,000 microns suggests moisture. A steady climb means a leak. A small rise that holds shows a dry, tight system.",
+  "domain": "diagnostics",
+  "id": 465
+ },
+ {
+  "chapter": 30,
+  "front": "Why should oxygen or compressed air never be used to pressurize a system?",
+  "back": "Oxygen can react violently with oil and ignite, and compressed air carries moisture into the system. Dry nitrogen is the gas used for pressure and leak testing.",
+  "domain": "diagnostics",
+  "id": 466
+ },
+ {
+  "chapter": 30,
+  "front": "How full may a refrigerant cylinder be filled?",
+  "back": "A cylinder must never be filled above 80 percent of its capacity by weight. The empty space allows for thermal expansion of the liquid so the cylinder does not become dangerously full.",
+  "domain": "diagnostics",
+  "id": 467
+ },
+ {
+  "chapter": 30,
+  "front": "What does a negative superheat reading mean?",
+  "back": "It means vapor appears colder than its saturation temperature, which cannot happen in vapor flow. The cause is usually a poor probe contact, a faulty thermometer or the wrong chart, so recheck.",
+  "domain": "diagnostics",
+  "id": 468
+ },
+ {
+  "chapter": 30,
+  "front": "What is the difference between accuracy and resolution?",
+  "back": "Resolution is the smallest step a display shows, such as 0.1 degree. Accuracy is how close the reading is to the true value. A meter can show fine steps and still be wrong.",
+  "domain": "diagnostics",
+  "id": 469
+ },
+ {
+  "chapter": 30,
+  "front": "What readings together indicate a low charge on a TXV system?",
+  "back": "Low suction pressure, superheat near 20 degrees F, subcooling near 6 degrees F, low head pressure and amps below the rated load amps all point toward a low charge and a leak to find.",
+  "domain": "diagnostics",
+  "id": 470
+ },
+ {
+  "chapter": 31,
+  "front": "What are the six steps of the troubleshooting method?",
+  "back": "Listen to the complaint, look at obvious items, check the electrical supply, check airflow, take refrigerant readings, then repair the cause and test again to prove the repair worked.",
+  "domain": "diagnostics",
+  "id": 471
+ },
+ {
+  "chapter": 31,
+  "front": "What voltage range is acceptable for equipment rated 230 volts?",
+  "back": "Rated voltage usually allows about plus or minus 10 percent, so roughly 207 to 253 volts. Low voltage forces a motor to draw more current to deliver the same power and overheats it.",
+  "domain": "diagnostics",
+  "id": 472
+ },
+ {
+  "chapter": 31,
+  "front": "What should the voltage across a closed contactor's contacts read?",
+  "back": "It should be near zero, no more than a volt or two. A reading of several volts across a closed set of contacts shows pitting or burning that wastes voltage meant for the motor.",
+  "domain": "diagnostics",
+  "id": 473
+ },
+ {
+  "chapter": 31,
+  "front": "What is the acceptable range for a 45 uF capacitor rated at plus or minus 6 percent?",
+  "back": "The range is 45 minus 2.7 to 45 plus 2.7, which is 42.3 to 47.7 uF. A reading of 36.8 uF is more than 18 percent low and the capacitor should be replaced.",
+  "domain": "diagnostics",
+  "id": 474
+ },
+ {
+  "chapter": 31,
+  "front": "What is the field formula for capacitance from amps and volts?",
+  "back": "Capacitance in uF equals 2,652 times amps divided by volts. With 3.3 amps and 240 volts, that is 2,652 x 3.3 divided by 240, or about 36.5 uF.",
+  "domain": "diagnostics",
+  "id": 475
+ },
+ {
+  "chapter": 31,
+  "front": "What symptoms does a weak run capacitor cause?",
+  "back": "A weak run capacitor makes a motor hum, start slowly, run hot, draw extra current or fail to start. The compressor may draw near locked rotor amps and then trip its overload.",
+  "domain": "diagnostics",
+  "id": 476
+ },
+ {
+  "chapter": 31,
+  "front": "What is the rule for single-phase compressor winding resistances?",
+  "back": "Start to run equals common to start plus common to run. With 1.9 and 1.2 ohms for the first two, start to run should read 3.1 ohms.",
+  "domain": "diagnostics",
+  "id": 477
+ },
+ {
+  "chapter": 31,
+  "front": "Why wait before concluding a compressor winding is open?",
+  "back": "Many compressors have an internal thermal overload that opens the circuit when hot. After an hour or more of cooling it may close again, showing that the windings were fine and the motor was overheated.",
+  "domain": "diagnostics",
+  "id": 478
+ },
+ {
+  "chapter": 31,
+  "front": "What does a megohmmeter test from a compressor terminal to the shell show?",
+  "back": "It shows winding insulation quality. A good reading is in the megohm range, often over 100 megohms. A reading of a few thousand ohms means the insulation has failed and the winding is grounded.",
+  "domain": "diagnostics",
+  "id": 479
+ },
+ {
+  "chapter": 31,
+  "front": "What are locked rotor amps?",
+  "back": "Locked rotor amps, or LRA, are the current drawn at the instant of starting or when the rotor will not turn. It is often five to six times the running load amps on the nameplate.",
+  "domain": "diagnostics",
+  "id": 480
+ },
+ {
+  "chapter": 31,
+  "front": "What readings suggest a dirty condenser coil?",
+  "back": "High head pressure and a large condenser temperature difference, such as 125 degrees F condensing with 95 degrees F air for 30 degrees F, with correct superheat and subcooling and slightly high amps.",
+  "domain": "diagnostics",
+  "id": 481
+ },
+ {
+  "chapter": 31,
+  "front": "What are non-condensables and how do they affect pressure?",
+  "back": "Non-condensables are gases such as air that do not condense in the condenser. They raise head pressure. The cure is to recover the charge, evacuate to 500 microns and recharge by weight.",
+  "domain": "diagnostics",
+  "id": 482
+ },
+ {
+  "chapter": 31,
+  "front": "What clue points to a plugged filter drier?",
+  "back": "A temperature drop of more than about 2 to 3 degrees F across the drier. A drop of 12 degrees F with high superheat and a starved evaporator matches a restriction.",
+  "domain": "diagnostics",
+  "id": 483
+ },
+ {
+  "chapter": 31,
+  "front": "What is a simple test for worn compressor valves?",
+  "back": "Close the suction service valve and watch the low-side gauge. A healthy compressor pulls a deep vacuum quickly, while one with leaking valves cannot pull below a modest pressure and rises when stopped.",
+  "domain": "diagnostics",
+  "id": 484
+ },
+ {
+  "chapter": 31,
+  "front": "What should be done before replacing a burned-out compressor?",
+  "back": "Find and correct the cause, such as low voltage, a restriction or moisture, then replace the drier and clean the system. Otherwise the new compressor is likely to fail the same way.",
+  "domain": "diagnostics",
+  "id": 485
+ },
+ {
+  "chapter": 32,
+  "front": "What is preventive maintenance?",
+  "back": "Preventive maintenance is scheduled service done before a failure happens, to keep equipment efficient, safe and reliable and to find small problems while they are cheap to fix.",
+  "domain": "professional",
+  "id": 486
+ },
+ {
+  "chapter": 32,
+  "front": "What is a service agreement?",
+  "back": "A service agreement is a contract for scheduled maintenance visits. It gives the contractor steady work in slow seasons and gives the owner regular checks and earlier warning of larger repairs.",
+  "domain": "professional",
+  "id": 487
+ },
+ {
+  "chapter": 32,
+  "front": "What water test checks a condensate drain on a maintenance visit?",
+  "back": "Pour a small amount of water into the drain pan and watch that it runs freely. Clear the trap or line if needed and test the float switch, since a plugged drain causes water damage.",
+  "domain": "professional",
+  "id": 488
+ },
+ {
+  "chapter": 32,
+  "front": "What is a baseline in maintenance records?",
+  "back": "A baseline is the set of normal readings for a particular system, such as superheat, subcooling, amps and delta T, recorded at installation or a good visit so later readings can be compared.",
+  "domain": "professional",
+  "id": 489
+ },
+ {
+  "chapter": 32,
+  "front": "What does a rising condenser temperature difference with steady superheat and subcooling suggest?",
+  "back": "It suggests a dirty condenser coil. For example, going from 15 to 25 degrees F with the charge indicators unchanged means the coil rejects heat less well and the charge is correct.",
+  "domain": "professional",
+  "id": 490
+ },
+ {
+  "chapter": 32,
+  "front": "How do you estimate power draw from SEER?",
+  "back": "Watts equals cooling BTU per hour divided by SEER. A 3-ton system at 36,000 BTU per hour and SEER 16 draws about 2,250 watts, or 2.25 kilowatts.",
+  "domain": "professional",
+  "id": 491
+ },
+ {
+  "chapter": 32,
+  "front": "What does 2.25 kW for 1,000 hours cost at 15 cents per kWh?",
+  "back": "Energy is 2.25 kW x 1,000 hours, or 2,250 kWh, and the cost is 2,250 x $0.15, which is $337.50 for the season.",
+  "domain": "professional",
+  "id": 492
+ },
+ {
+  "chapter": 32,
+  "front": "How does a clogged filter reduce capacity?",
+  "back": "If airflow falls from 1,200 to 900 CFM at a 19 degree F delta T, sensible capacity drops from 24,624 to 18,468 BTU per hour, a loss of one quarter.",
+  "domain": "professional",
+  "id": 493
+ },
+ {
+  "chapter": 32,
+  "front": "What should a technician do after finding a cracked heat exchanger?",
+  "back": "Tell the customer clearly, advise keeping the furnace off, and document it in writing. A cracked heat exchanger can leak combustion gases including carbon monoxide into the air stream.",
+  "domain": "professional",
+  "id": 494
+ },
+ {
+  "chapter": 32,
+  "front": "Which items matter most on a commercial refrigeration visit?",
+  "back": "Condenser coil cleaning, defrost cycle checks, door gaskets, evaporator and drain inspection, fan motors, refrigerant charge readings and electrical connections, usually on a quarterly schedule.",
+  "domain": "professional",
+  "id": 495
+ },
+ {
+  "chapter": 32,
+  "front": "Why should customers get options and written prices?",
+  "back": "Options such as a basic repair, a better repair and a replacement let the owner choose, and written prices stated before work begins avoid disputes and build trust.",
+  "domain": "professional",
+  "id": 496
+ },
+ {
+  "chapter": 32,
+  "front": "What are the EPA Section 608 certification types?",
+  "back": "Core covers general rules. Type I covers small appliances, Type II high-pressure systems, and Type III low-pressure systems. Passing all sections earns Universal certification.",
+  "domain": "professional",
+  "id": 497
+ },
+ {
+  "chapter": 32,
+  "front": "What does NATE certification show?",
+  "back": "North American Technician Excellence offers voluntary exams in areas such as air conditioning, heat pumps, gas heating and commercial refrigeration, showing an employer the technician meets a recognized standard.",
+  "domain": "professional",
+  "id": 498
+ },
+ {
+  "chapter": 32,
+  "front": "Why is a drifting capacitor reading worth recording?",
+  "back": "A reading that falls from 44 to 43.5 to 42.6 uF may be in tolerance each time yet is clearly wearing out. Replacing it at a scheduled visit costs less than an emergency call.",
+  "domain": "professional",
+  "id": 499
+ },
+ {
+  "chapter": 32,
+  "front": "Why should a technician avoid promising an exact savings figure?",
+  "back": "Savings depend on use, weather and system condition, so an exact promise may be wrong and damage trust. Describe what was repaired, what was measured, and that results vary.",
+  "domain": "professional",
+  "id": 500
+ }
+]
